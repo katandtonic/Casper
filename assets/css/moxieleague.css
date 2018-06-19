@@ -1,0 +1,180 @@
+@font-face {
+	font-family: 'Sorts Mill';
+	src: url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.eot");
+	src: url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.woff") format("woff"),
+	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.ttf") format("truetype"),
+	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.svg") format("svg")
+}
+
+@font-face {
+	font-family: 'Sorts Mill Italics';
+	src: url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-Italic-webfont.eot");
+	src: url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-Italic-webfont.woff") format("woff"),
+	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-Italic-webfont.ttf") format("truetype"),
+	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-Italic-webfont.svg") format("svg")
+}
+
+@font-face {
+	font-family: "Avenir";
+	src: url("../font/Avenir Free/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face {
+	font-family: "Caslon";
+	src: url("../font/Adobe Caslon Pro Regular/Adobe Caslon Pro Regular.ttf");
+}
+
+/* Make the post content font size 0.3rem tinier */
+.post-full-content {
+    font-size: 1.5rem;
+	font-family: "Avenir", sans-serif;
+	font-weight: 600;
+	color: #333333;
+}
+
+.post-full-content h3 {
+	font-family: "Caslon", serif;
+	font-weight: 500;
+	font-size: 3rem;
+}
+
+.post-full-title {
+	font-size: 3.75rem;
+	font-family: "Sorts Mill";
+}
+
+
+/* Make the first paragraph the same size as the post */
+.post-template .kg-card-markdown>p:first-child {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Center the header post image */
+.post-header-image {
+    display: block;
+    margin: auto;
+}
+
+/* Image should not text bleeing onto it */
+.post-full-image {
+	margin: 0;
+}
+
+/* Justify post content */
+.post-full-content {
+    text-align: justify;
+}
+
+/* Remove the shadows as we move up the image */
+.post-full-content::before, .post-full-content::after {
+    display: none;
+}
+
+
+
+
+
+
+/* 5. Site Navigation
+/* ---------------------------------------------------------- */
+
+.post-site-nav {
+    position: relative;
+    height: 50px;
+    font-size: 1.2rem;
+	background-color: red;
+}
+
+.post-site-nav-left {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin-right: 10px;
+    padding-bottom: 80px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+
+    -ms-overflow-scrolling: touch;
+}
+
+/* Site Nav Hack Explanation (above):
+
+What's happening above it .site-nav-left is set to overflow-x and allow sideways scrolling, so that when there isn't enough space for all nav items (either due to lots of nav items, or a small viewport), you can still scroll side-to-side to reach them.
+
+The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px of padding-bottom and a 40px fixed height parent (.site-nav) hides that entirely. Slightly hacky code. But nice clean end-result.
+
+*/
+
+
+.post-site-nav-right {
+}
+
+.site-nav-logo {
+    flex-shrink: 0;
+    display: block;
+    margin-right: 24px;
+    padding: 11px 0;
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 1em;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+.site-nav-logo:hover {
+    text-decoration: none;
+}
+
+.site-nav-logo img {
+    display: block;
+    width: auto;
+    height: 21px;
+}
+
+
+/* 4. Site Header
+/* ---------------------------------------------------------- */
+
+.site-header {
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: red;
+    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    background-size: cover;
+}
+
+.site-header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: block;
+    background: rgba(0,0,0,0.18);
+}
+
+.site-header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    z-index: 10;
+    display: block;
+    height: 80px;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
+}
+
+.site-header.no-cover:before,
+.site-header.no-cover:after {
+    display: none;
+}
+
+
