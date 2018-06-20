@@ -81,11 +81,10 @@
 
 .post-site-nav {
     position: relative;
-    height: 50px;
+    height: 40px;
     font-size: 1.2rem;
-	background-color: red;
+	background-color: #ff5252;
 }
-
 .post-site-nav-left {
     display: flex;
     align-items: center;
@@ -142,10 +141,13 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: red;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
     background-size: cover;
+	background: #ff5252;
 }
+
+/*
+#ff5252;
+*/
 
 .site-header:before {
     content: "";
@@ -156,7 +158,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
+	background: none;
 }
 
 .site-header:after {
@@ -169,7 +171,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     z-index: 10;
     display: block;
     height: 80px;
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
+	background: none;
 }
 
 .site-header.no-cover:before,

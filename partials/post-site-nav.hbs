@@ -1,29 +1,15 @@
 <nav class="post-site-nav">
-    <div class="post-site-nav-left">
-        {{^is "home"}}
-            {{#if @blog.logo}}
-                <a class="site-nav-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>
-            {{else}}
-                <a class="site-nav-logo" href="{{@blog.url}}">{{@blog.title}}</a>
-            {{/if}}
-        {{/is}}
-        {{#if @blog.navigation}}
-            {{navigation}}
-        {{/if}}
+  <div class="row flex-nowrap justify-content-between align-items-center">
+    <div class="col-4 pt-1">
+      <a class="text-muted" href="#">Subscribe</a>
     </div>
-    <div class="post-site-nav-right">
-        <div class="social-links">
-            {{#if @blog.facebook}}
-                <a class="social-link social-link-fb" href="{{facebook_url @blog.facebook}}" target="_blank" rel="noopener">{{> "icons/facebook"}}</a>
-            {{/if}}
-            {{#if @blog.twitter}}
-                <a class="social-link social-link-tw" href="{{twitter_url @blog.twitter}}" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
-            {{/if}}
-        </div>
-        {{#if @labs.subscribers}}
-            <a class="subscribe-button" href="#subscribe">Subscribe</a>
-        {{else}}
-            <a class="rss-button" href="https://feedly.com/i/subscription/feed/{{@blog.url}}/rss/" target="_blank" rel="noopener">{{> "icons/rss"}}</a>
-        {{/if}}
+
+    <div class="col-4 text-center">
+      <img src="" />
     </div>
+
+    <div class="col-4 d-flex justify-content-end align-items-center">
+      <a class="btn btn-small btn-outline-secondary" href="#">Sign Up</a>
+    </div>
+  </div>
 </nav>
