@@ -26,9 +26,9 @@
 
 /* Make the post content font size 0.3rem tinier */
 .post-full-content {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 	font-family: "Avenir", sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	color: #333333;
 }
 
@@ -75,16 +75,16 @@
 
 
 
-
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
 
 .post-site-nav {
     position: relative;
-    height: 40px;
+    height: 25px;
     font-size: 1.2rem;
-	background-color: #ff5252;
+	background-color: white;
 }
+
 .post-site-nav-left {
     display: flex;
     align-items: center;
@@ -107,9 +107,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 */
 
-
-.post-site-nav-right {
-}
 
 .site-nav-logo {
     flex-shrink: 0;
@@ -139,10 +136,11 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .site-header {
     position: relative;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     background-size: cover;
-	background: #ff5252;
+	background: white;
+	border-bottom: 1.25px #c8c8c8 solid;
 }
 
 /*
