@@ -29,6 +29,10 @@
 	src: url("../font/Brandon Grotesque/Brandon_med.otf");
 }
 
+@font-face {
+	font-family: "Brandon Light";
+	src: url("../font/Brandon Grotesque/Brandon_light.otf");
+}
 
 /* Make the post content font size 0.3rem tinier */
 .post-full-content {
@@ -304,16 +308,26 @@ p.subscribe-form-p {
 
 
 
+.moxieleague-site-footer-content {
+	padding-top: 3.5%;
+	padding-bottom: 2.15%;
+}
+
+h4.social-media-header {
+	font-family: "Brandon Light";
+	font-size: 1.75rem;
+}
+
+img.social-media-icon {
+	max-width: 40%;
+}
 
 
-
-
-
-
-
-
-
-
+.social-media-container {
+	max-width: 45%;
+	float: none;
+    margin: 0 auto;
+}
 
 
 
