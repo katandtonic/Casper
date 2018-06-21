@@ -329,11 +329,14 @@ img.social-media-icon {
     margin: 0 auto;
 }
 
-
-
-
-
-
+.post-card {
+    margin-top: 0rem;
+	margin-bottom: 0rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+	box-shadow: none;
+	border-radius: 0;
+}
 
 
 
