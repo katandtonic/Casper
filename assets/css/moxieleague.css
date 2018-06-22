@@ -346,5 +346,30 @@ img.social-media-icon {
 
 
 
+/* 2. Feature post
+/* ---------------------------------------------------------- */
+.feature-post-container {
+	background-color: #FFD6E9;
+	padding: 0rem;
+	margin: 0rem;
+	max-width: none;
+}
+
+.feature-post-title {
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+}
+
+
+
+/* 3. TEMP!
+/* ---------------------------------------------------------- */
+.post-feed {
+	margin-top: 0rem;
+}
+
+
+
 
 
