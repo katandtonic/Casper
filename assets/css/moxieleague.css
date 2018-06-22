@@ -348,19 +348,23 @@ img.social-media-icon {
 
 /* 2. Feature post
 /* ---------------------------------------------------------- */
-.feature-post-container {
+.feature-post-container-bg-color {
 	background-color: #FFD6E9;
+}
+
+.feature-post-container-white {
+	background-color: white;
 	padding: 0rem;
-	margin: 0rem;
+	margin: 5rem;
 	max-width: none;
 }
 
-.feature-post-title {
-	height: 300px;
-	width: 300px;
-	background-color: blue;
-}
+/* todo: if its a phone screen, reduce the white border on feature-post-container-white and feature-post-img
+ */
 
+.feature-post-img {
+	max-width: 70rem;
+}
 
 
 /* 3. TEMP!
