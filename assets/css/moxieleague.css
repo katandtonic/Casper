@@ -374,7 +374,7 @@ img.social-media-icon {
 
 .moxieleague-post-card-image {
     width: auto;
-    height: 200px;
+    height: 27.5vw;
     background-size: cover;
 }
 
@@ -382,8 +382,8 @@ img.social-media-icon {
 	color: blue;
 	padding-top: 10%;
 	padding-bottom: 10%;
-	padding-right: 7.5%;
-	padding-left: 7.5%;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
 }
 
 

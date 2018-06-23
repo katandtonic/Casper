@@ -14,7 +14,7 @@ into the {body} of the default.hbs template --}}
 
 <div class="feature-post-container-bg-color container-fluid">
   <div class="feature-post-container-white">
-    <div class="row-fluid">
+    <div class="row no-gutter">
       <div class="col-sm-4 d-flex flex-column justify-content-center">
         <h1 class="align-self-center">Test Title</h1>
       </div>
@@ -40,6 +40,17 @@ into the {body} of the default.hbs template --}}
   </div>
 
 
+
+<div class="container-fluid">
+  <div class="decorative-row-first row">
+      {{#get "posts" limit="3" page="2" as |posts|}}
+        {{#foreach posts}}
+          <div class="col-sm-4">
+            {{> "moxieleague-post-card"}}
+          </div>
+        {{/foreach}}
+      {{/get}}
+  </div>
 
 
 
