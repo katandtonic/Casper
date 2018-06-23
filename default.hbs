@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Nunito" rel="stylesheet">
-    
+
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "built/moxieleague.css"}}" />
@@ -33,6 +33,16 @@
 
         {{!-- The footer at the very bottom of the screen --}}
         <footer class="moxieleague-site-footer outer">
+
+          {{!-- TODO: subscription prompt --}}
+          <div class="container">
+            <div class="subscribe-prompt-container">
+              <img src="" />
+              <h3>We don't keep our beauty secrets</h3>
+              <p>Subscribe now and thank us later.</p>
+              <><>
+            </div><!-- subscribe-prompt-container -->
+          </div><!-- container -->
 
           {{!-- Social media links --}}
           <div class="social-media-footer">
@@ -57,8 +67,9 @@
             </div>
           </div>
 
+
           <div class="moxieleague-site-footer-content inner row">
-            <div class="col-4"> 
+            <div class="col-4">
               <img style="max-width:40%;" src="https://moxieleague.nyc3.digitaloceanspaces.com/blog-images/site-header-icon.svg" />
               <p>We're reimagining how women take care — through down-time and quality friend-time. Created by women for women.</p>
             </div>
@@ -75,20 +86,6 @@
 
     </div>
 
-    {{!-- The big email subscribe modal content --}}
-    {{#if @labs.subscribers}}
-    <div id="subscribe" class="subscribe-overlay">
-        <a class="subscribe-overlay-close" href="#"></a>
-        <div class="subscribe-overlay-content">
-            {{#if @blog.logo}}
-                <img class="subscribe-overlay-logo" src="{{@blog.logo}}" alt="{{@blog.title}}" />
-            {{/if}}
-            <h1 class="subscribe-overlay-title">Subscribe to {{@blog.title}}</h1>
-            <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-            {{subscribe_form placeholder="youremail@example.com"}}
-        </div>
-    </div>
-    {{/if}}
 
     {{!-- jQuery + Fitvids, which makes all video embeds responsive --}}
     <script
