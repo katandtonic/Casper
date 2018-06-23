@@ -29,14 +29,14 @@ into the {body} of the default.hbs template --}}
 
 
 <div class="container-fluid">
-  <div class="row">
-    {{#get "posts" limit="3" page="1" as |posts|}}
+  <div class="decorative-row-first row">
+      {{#get "posts" limit="3" page="1" as |posts|}}
         {{#foreach posts}}
           <div class="col-sm-4">
             {{> "moxieleague-post-card"}}
           </div>
         {{/foreach}}
-    {{/get}}
+      {{/get}}
   </div>
 
 

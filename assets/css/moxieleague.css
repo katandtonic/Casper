@@ -378,7 +378,13 @@ img.social-media-icon {
     background-size: cover;
 }
 
-
+.decorative-row-first {
+	color: blue;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-right: 7.5%;
+	padding-left: 7.5%;
+}
 
 
 
