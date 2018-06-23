@@ -355,22 +355,27 @@ img.social-media-icon {
 .feature-post-container-white {
 	background-color: white;
 	padding: 0rem;
-	margin: 5rem;
+	margin: 5%;
 	max-width: none;
 }
 
-/* todo: if its a phone screen, reduce the white border on feature-post-container-white and feature-post-img
+/* todo: if its a phone screen, reduce the feature-post-img max-height
  */
-
 .feature-post-img {
-	max-width: 70rem;
+	max-wdith: 530px;
 }
 
 
-/* 3. TEMP!
+/* 3. Post Feed
 /* ---------------------------------------------------------- */
-.post-feed {
+.moxieleague-post-feed {
 	margin-top: 0rem;
+}
+
+.moxieleague-post-card-image {
+    width: auto;
+    height: 200px;
+    background-size: cover;
 }
 
 

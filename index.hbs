@@ -14,7 +14,7 @@ into the {body} of the default.hbs template --}}
 
 <div class="feature-post-container-bg-color container-fluid">
   <div class="feature-post-container-white">
-    <div class="row">
+    <div class="row-fluid">
       <div class="col-sm-4 d-flex flex-column justify-content-center">
         <h1 class="align-self-center">Test Title</h1>
       </div>
@@ -25,18 +25,23 @@ into the {body} of the default.hbs template --}}
   </div>
 </div>
 
-  {{!-- The main content area --}}
-<main id="site-main" class="site-main outer">
-    <div class="inner">
-      
-        <div class="post-feed">
-            {{#foreach posts}}
 
-                {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
-                {{> "post-card"}}
 
-            {{/foreach}}
-        </div>
 
-    </div>
-</main>
+<div class="container-fluid">
+  <div class="row">
+    {{#get "posts" limit="3" page="1" as |posts|}}
+        {{#foreach posts}}
+          <div class="col-sm-4">
+            {{> "moxieleague-post-card"}}
+          </div>
+        {{/foreach}}
+    {{/get}}
+  </div>
+
+
+
+
+
+
+</div><!-- container outer -->
