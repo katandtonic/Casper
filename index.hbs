@@ -40,8 +40,21 @@ into the {body} of the default.hbs template --}}
   </div>
 
 
-<div class="container-fluid">
-
+<div class="no-padding-lr-container">
+  <div class="second-featurette">
+    {{#get "posts" limit="1" page="7" as |posts|}}
+      {{#foreach posts}}
+        <div class="featurette-content-row row">
+          <div class="col-sm-6">
+            <h1>Test blah glah</h1>            
+          </div>
+          <div class="col-sm-6 justify-content-end" style="padding-left: 0; padding-right: 0;">
+            <img src= "https://moxieleague.nyc3.digitaloceanspaces.com/blog-images/EClass_Photoshop_Designing_Textures_012.jpg" />
+          </div>
+        </div><!-- row -->
+      {{/foreach}}
+    {{/get}}
+  </div><!-- two-piece-feature -->
 </div>
 
 <div class="container-fluid">

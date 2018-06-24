@@ -442,3 +442,35 @@ h3.footer-subscribe-form-title {
 .post-subscribe-input::placeholder {
 	margin-left: 1vw;
 }
+
+
+/* 3. Two Piece Featurette
+/* ---------------------------------------------------------- */
+.second-featurette {
+	background-color: #FFFFEB;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+}
+
+.second-featurette-img {
+	width: 50vw;
+	height: auto;
+}
+
+.featurette-title-container {
+	background-color: white;
+}
+
+.featurette-content-row {
+	background-color: white;
+}
+
+.no-padding-lr-container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
+	padding-right: 0;
+}
