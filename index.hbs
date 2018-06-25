@@ -38,9 +38,10 @@ into the {body} of the default.hbs template --}}
         {{/foreach}}
       {{/get}}
   </div>
+</div>
 
 
-<div class="no-padding-lr-container">
+<div class="no-padding-lr-container" style="padding-left: 0; padding-right: 0;">
   <div class="second-featurette">
     {{#get "posts" limit="1" page="7" as |posts|}}
       {{#foreach posts}}
