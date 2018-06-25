@@ -32,7 +32,7 @@ into the {body} of the default.hbs template --}}
   <div class="decorative-row-first row">
       {{#get "posts" limit="3" page="1" as |posts|}}
         {{#foreach posts}}
-          <div class="col-sm-4">
+          <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
             {{> "moxieleague-post-card"}}
           </div>
         {{/foreach}}
@@ -62,7 +62,7 @@ into the {body} of the default.hbs template --}}
   <div class="decorative-row-first row">
       {{#get "posts" limit="3" page="2" as |posts|}}
         {{#foreach posts}}
-          <div class="col-sm-4">
+          <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
             {{> "moxieleague-post-card"}}
           </div>
         {{/foreach}}
