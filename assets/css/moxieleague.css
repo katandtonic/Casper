@@ -355,25 +355,6 @@ img.social-media-icon {
 
 
 
-/* 2. Feature post
-/* ---------------------------------------------------------- */
-.feature-post-container-bg-color {
-	background-color: #FFD6E9;
-}
-
-.feature-post-container-white {
-	background-color: white;
-	padding: 0rem;
-	margin: 5%;
-	max-width: none;
-}
-
-/* todo: if its a phone screen, reduce the feature-post-img max-height
- */
-.feature-post-img {
-	max-width: 530px;
-}
-
 
 /* 3. Post Feed
 /* ---------------------------------------------------------- */
@@ -564,3 +545,25 @@ h1.readmore {
 }
 
 
+/* Main Feature Post
+/* ---------------------------------------------------------- */
+.main-feature-post {
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	padding-top: 1.5%;
+	height: 400px;
+}
+
+.hold-together {
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: 1vw;
+}
+
+.main-feature-inner {
+	background-image: url("https://moxieleague.nyc3.digitaloceanspaces.com/blog-images/EClass_Photoshop_Designing_Textures_012.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
