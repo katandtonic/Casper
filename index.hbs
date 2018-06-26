@@ -46,10 +46,18 @@ into the {body} of the default.hbs template --}}
     {{#get "posts" limit="1" page="7" as |posts|}}
       {{#foreach posts}}
         <div class="featurette-content-row row">
-          <div class="col-sm-6">
-            <h1>Test blah glah</h1>            
-          </div>
-          <div class="col-sm-6 justify-content-end" style="padding-left: 0; padding-right: 0;">
+          <div class="col-sm-5">
+            <div class="featurette-title-container">
+              <p class="featurette-tag text-center highlighted-underscore">INTERVIEW</p>
+              <div class="row justify-content-center">
+                <img class="featurette-tag-icon" src="https://moxieleague.nyc3.digitaloceanspaces.com/site-icons/apple.svg" />
+              </div><!-- row -->
+              <div class="featurette-title-container">
+                <h1 class="featurette-title text-center">Test blah glah</h1>
+              </div>
+            </div>
+          </div><!-- col-sm-6 -->
+          <div class="col-sm-7 justify-content-end" style="padding-left: 0; padding-right: 0;">
             <img src= "https://moxieleague.nyc3.digitaloceanspaces.com/blog-images/EClass_Photoshop_Designing_Textures_012.jpg" />
           </div>
         </div><!-- row -->

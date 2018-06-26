@@ -39,6 +39,18 @@
 	src: url("../font/Futura Regular/Futura Regular.ttf");
 }
 
+@font-face {
+	font-family: "Calluna";
+	src: url("../font/Calluna Sans-Demo/Demo_fonts/Fontspring-DEMO-CallunaSansRegular.otf");
+}
+
+@font-face {
+	font-family: "GT Walsheim Bold";
+	src: url("../font/GT-Walsheim/GT-Walsheim-Bold.eot") format("eot"),
+	url("../font/GT-Walsheim/GT-Walsheim-Bold.woff") format("woff"),
+	url("../font/GT-Walsheim/GT-Walsheim-Bold.ttf") format("truetype")
+}
+
 /* Make the post content font size 0.3rem tinier */
 .post-full-content {
     font-size: 1.75rem;
@@ -359,7 +371,7 @@ img.social-media-icon {
 /* todo: if its a phone screen, reduce the feature-post-img max-height
  */
 .feature-post-img {
-	max-wdith: 530px;
+	max-width: 530px;
 }
 
 
@@ -381,6 +393,13 @@ img.social-media-icon {
 	padding-bottom: 10%;
 	padding-right: 2.5%;
 	padding-left: 2.5%;
+}
+
+h2.ml-post-card-title {
+    margin-top: 0;
+	font-family: "Calluna";
+	font-size: 16;
+	font-weight: 500;
 }
 
 
@@ -447,9 +466,8 @@ h3.footer-subscribe-form-title {
 /* 3. Two Piece Featurette
 /* ---------------------------------------------------------- */
 .second-featurette {
-	background-color: #FFFFEB;
-	padding-left: 7.5%;
-	padding-right: 7.5%;
+	padding-left: 15.75%;
+	padding-right: 15.75%;
 	padding-top: 3.5%;
 	padding-bottom: 3.5%;
 }
@@ -464,7 +482,20 @@ h3.footer-subscribe-form-title {
 }
 
 .featurette-content-row {
-	background-color: white;
+	border-color: #f44842;
+	border-style: solid;
+	border-width: .15vw;
+	padding: .5vw;
+}
+
+.featurette-title-container {
+	margin-top: 10%;
+}
+
+.featurette-title {
+	font-family: "adobe-caslon-pro";
+	font-size: 36px;
+	font-weight: 500;
 }
 
 .no-padding-lr-container {
@@ -473,4 +504,25 @@ h3.footer-subscribe-form-title {
 	margin-right: auto;
 	padding-left: 0;
 	padding-right: 0;
+}
+
+p.featurette-tag {
+	font-family: "GT Walsheim Bold";
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+
+.featurette-tag-icon {
+	height: 1.5vw;
+	width: auto;
+	margin-top: .05vw;
+}
+
+.highlighted-underscore {
+	background-image: linear-gradient(180deg, #EEF600, #EEF600);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 30% 1.15vw;
 }
