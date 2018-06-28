@@ -6,9 +6,6 @@
 	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.svg") format("svg")
 }
 
-@t {
-}
-
 /* 7.1. Subscribe Form
 /* ---------------------------------------------------------- */
 
@@ -160,12 +157,6 @@ img.social-media-icon {
 	margin-top: 0rem;
 }
 
-.moxieleague-post-card-image {
-    width: auto;
-    height: 27.5vw;
-    background-size: cover;
-}
-
 .decorative-row-first {
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -173,12 +164,6 @@ img.social-media-icon {
 	padding-left: 2.5%;
 }
 
-h2.ml-post-card-title {
-    margin-top: 0;
-	font-family: "Calluna";
-	font-size: 16;
-	font-weight: 500;
-}
 
 
 /* 3. Subscribe Form Footer (index)
@@ -282,7 +267,7 @@ h3.footer-subscribe-form-title {
 }
 
 p.featurette-tag {
-	font-family: "GT Walsheim Bold";
+	font-family: "Renner*";
 	font-size: 135%;
 	font-weight: 600;
 	margin-bottom: 0;
@@ -417,4 +402,59 @@ p.main-feature {
 	height: 2.75vw;
 }
 
+
+/* Site Header
+/* ---------------------------------------------------------- */
+/* TODO make this height responsive
+/* ---------------------------------------------------------- */
+.ml-site-header {
+	background-color: #f44842;
+	padding-top: .5vw;
+	padding-bottom: .5vw;
+}
+
+
+.site-header-social-media-icon {
+	max-width: 2vw;
+	height: 100%;
+	margin-left: 2.5%;
+}
+
+.social-media-icons {
+	margin-left: 5%;
+}
+
+.nav-subscribe-btn {
+	color: white;
+	font-size: 14px;
+}
+
+
+/* Post Card =
+/* ---------------------------------------------------------- */
+.post-card-content-link {
+	padding-top: 5%;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	padding-bottom: 0%;
+}
+
+.post-card-tags {
+	font-family: "Renner*";
+	font-size: 14px;
+	color: green;
+}
+
+h2.ml-post-card-title {
+    margin-top: 0;
+	font-family: "adobe-caslon-pro";
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.moxieleague-post-card-image {
+    width: auto;
+    height: 27.5vw;
+    background-size: cover;
+}
 

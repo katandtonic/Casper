@@ -2,7 +2,7 @@
 {{!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template --}}
 
-<header class="site-header outer">
+<header class="ml-site-header outer">
         {{> "post-site-nav"}}
 </header>
 
@@ -40,7 +40,7 @@ into the {body} of the default.hbs template --}}
 
 <div class="container-fluid">
   <div class="decorative-row-first row">
-      {{#get "posts" limit="3" page="1" as |posts|}}
+      {{#get "posts" include="tags" limit="3" page="1" as |posts|}}
         {{#foreach posts}}
           <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
             {{> "moxieleague-post-card"}}
@@ -53,7 +53,7 @@ into the {body} of the default.hbs template --}}
 
 <div class="no-padding-lr-container" style="padding-left: 0; padding-right: 0;">
   <div class="second-featurette">
-    {{#get "posts" limit="1" page="7" as |posts|}}
+    {{#get "posts" limit="1" include="tags" page="7" as |posts|}}
       {{#foreach posts}}
         <div class="featurette-content-row row">
           <div class="col-sm-5">
@@ -94,7 +94,7 @@ into the {body} of the default.hbs template --}}
 
 <div class="container-fluid">
   <div class="decorative-row-first row">
-      {{#get "posts" limit="3" page="2" as |posts|}}
+      {{#get "posts" limit="3" include="tags" page="2" as |posts|}}
         {{#foreach posts}}
           <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
             {{> "moxieleague-post-card"}}
