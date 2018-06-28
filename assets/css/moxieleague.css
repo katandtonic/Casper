@@ -6,209 +6,7 @@
 	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.svg") format("svg")
 }
 
-@font-face {
-	font-family: 'Sorts Mill Italics';
-	src: url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-Italic-webfont.eot");
-	src: url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-Italic-webfont.woff") format("woff"),
-	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-Italic-webfont.ttf") format("truetype"),
-	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-Italic-webfont.svg") format("svg")
-}
-
-@font-face {
-	font-family: "Avenir";
-	src: url("../font/Avenir Free/AvenirNextLTPro-Regular.otf");
-}
-
-@font-face {
-	font-family: "Brandon Regular";
-	src: url("../font/Brandon Grotesque/Brandon_reg.otf");
-}
-
-@font-face {
-	font-family: "Brandon Medium";
-	src: url("../font/Brandon Grotesque/Brandon_med.otf");
-}
-
-@font-face {
-	font-family: "Brandon Light";
-	src: url("../font/Brandon Grotesque/Brandon_light.otf");
-}
-
-@font-face {
-	font-family: "Futura Regular";
-	src: url("../font/Futura Regular/Futura Regular.ttf");
-}
-
-@font-face {
-	font-family: "Calluna";
-	src: url("../font/Calluna Sans-Demo/Demo_fonts/Fontspring-DEMO-CallunaSansRegular.otf");
-}
-
-@font-face {
-	font-family: "GT Walsheim Bold";
-	src: url("../font/GT-Walsheim/GT-Walsheim-Bold.eot") format("eot"),
-	url("../font/GT-Walsheim/GT-Walsheim-Bold.woff") format("woff"),
-	url("../font/GT-Walsheim/GT-Walsheim-Bold.ttf") format("truetype")
-}
-
-/* Make the post content font size 0.3rem tinier */
-.post-full-content {
-    font-size: 1.75rem;
-	font-family: "Avenir", sans-serif;
-	font-weight: 500;
-	color: #333333;
-}
-
-.post-full-content h3 {
-	font-family: "adobe-caslon-pro", serif;
-	font-weight: 500;
-	font-size: 3rem;
-}
-
-.post-full-title {
-	font-size: 3.75rem;
-	font-family: "Sorts Mill";
-}
-
-
-/* Make the first paragraph the same size as the post */
-.post-template .kg-card-markdown>p:first-child {
-    font-size: inherit;
-    line-height: inherit;
-}
-
-/* Center the header post image */
-.post-header-image {
-    display: block;
-    margin: auto;
-}
-
-/* Image should not text bleeing onto it */
-.post-full-image {
-	margin: 0;
-}
-
-/* Justify post content */
-.post-full-content {
-    text-align: justify;
-}
-
-/* Remove the shadows as we move up the image */
-.post-full-content::before, .post-full-content::after {
-    display: none;
-}
-
-
-
-
-
-/* 5. Site Navigation
-/* ---------------------------------------------------------- */
-
-.post-site-nav {
-    position: relative;
-    height: 25px;
-    font-size: 1.2rem;
-	background-color: white;
-}
-
-.post-site-nav-left {
-    display: flex;
-    align-items: center;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    margin-right: 10px;
-    padding-bottom: 80px;
-    letter-spacing: 0.4px;
-    white-space: nowrap;
-
-    -ms-overflow-scrolling: touch;
-}
-
-/* Site Nav Hack Explanation (above):
-
-What's happening above it .site-nav-left is set to overflow-x and allow sideways scrolling, so that when there isn't enough space for all nav items (either due to lots of nav items, or a small viewport), you can still scroll side-to-side to reach them.
-
-The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px of padding-bottom and a 40px fixed height parent (.site-nav) hides that entirely. Slightly hacky code. But nice clean end-result.
-
-*/
-
-
-.site-nav-logo {
-    flex-shrink: 0;
-    display: block;
-    margin-right: 24px;
-    padding: 11px 0;
-    color: #fff;
-    font-size: 1.7rem;
-    line-height: 1em;
-    font-weight: bold;
-    letter-spacing: -0.5px;
-}
-
-.site-nav-logo:hover {
-    text-decoration: none;
-}
-
-.site-nav-logo img {
-    display: block;
-    width: auto;
-    height: 21px;
-}
-
-
-/* 4. Site Header
-/* ---------------------------------------------------------- */
-
-.site-header {
-    position: relative;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    background-size: cover;
-	background: white;
-	border-bottom: 1.25px #c8c8c8 solid;
-}
-
-/*
-#ff5252;
-*/
-
-.site-header:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-    display: block;
-	background: none;
-}
-
-.site-header:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: auto;
-    left: 0;
-    z-index: 10;
-    display: block;
-    height: 80px;
-	background: none;
-}
-
-.site-header.no-cover:before,
-.site-header.no-cover:after {
-    display: none;
-}
-
-
-/* Post Subscribe Form
-/* ---------------------------------------------------------- */
-
-#post-subscriber-email-input {
+@t {
 }
 
 /* 7.1. Subscribe Form
@@ -581,8 +379,8 @@ h1.readmore {
 	.main-feature-words-box {
 		margin-top: -32.75%;
 		background-color: white;
-		width: 35%;
-		height: 60%;
+		width: 37.5%;
+		height: 67.5%;
 		margin-left: 7.75%;
 	}
 }
@@ -601,11 +399,18 @@ p.main-feature {
 }
 
 .main-feature-words-box-inner {
-	padding-left: 10.75%;
-	padding-right: 10.75%;
+	margin-left: 1.75%;
+	margin-right: 1.75%;
+	margin-top: 1.75%;
+	margin-bottom: 1.75%;
+	border-style: solid;
+	border-color: red;
+	border-width: .15vw;
 }
 
 .main-feature-icon {
 	max-width: 10%;
 	height: auto;
 }
+
+
