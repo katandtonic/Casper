@@ -319,7 +319,6 @@ p.featurette-excerpt {
 	padding-bottom:.5vw;
 	padding-left: .5vw;
 	padding-right: .5vw;
-	max-width: 65%;
 }
 
 .readmore-inside {
@@ -335,6 +334,7 @@ h1.readmore {
 	font-family: "Avenir";
 	font-size: 14px;
 	font-weight: 600;
+	padding: 2.5%;
 }
 
 .featurette-title-and-body {
@@ -377,10 +377,10 @@ h1.readmore {
 
 @media (min-width: 900px) {
 	.main-feature-words-box {
-		margin-top: -32.75%;
+		margin-top: -33.75%;
 		background-color: white;
-		width: 37.5%;
-		height: 67.5%;
+		width: 40%;
+		height: 75%;
 		margin-left: 7.75%;
 	}
 }
@@ -389,6 +389,7 @@ h1.main-feature {
 	font-family: "adobe-caslon-pro";
 	font-size: 34px;
 	font-weight: 650;
+	margin-top: 7%;
 }
 
 p.main-feature {
@@ -396,6 +397,7 @@ p.main-feature {
 	font-size: 16px;
 	font-weight: 500;
 	color: #333333;
+	margin-top: 5%;
 }
 
 .main-feature-words-box-inner {
@@ -406,11 +408,13 @@ p.main-feature {
 	border-style: solid;
 	border-color: red;
 	border-width: .15vw;
+	padding-left: 12.75%;
+	padding-right: 12.75%;
 }
 
 .main-feature-icon {
-	max-width: 10%;
-	height: auto;
+	max-width: auto;
+	height: 2.75vw;
 }
 
 
