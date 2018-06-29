@@ -306,6 +306,23 @@ p.featurette-excerpt {
 	font-size: 16px;
 }
 
+.readmore-btn {
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-style: solid;
+	background-color: #F55555;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: "Renner*";
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
 .readmore-outside {
 	background-color: #F55555;
 	padding-top: .5vw;
@@ -399,6 +416,7 @@ p.main-feature {
 	font-weight: 500;
 	color: #333333;
 	margin-top: 5%;
+	margin-bottom: 10%;
 }
 
 .main-feature-words-box-inner {
