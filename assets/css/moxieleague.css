@@ -425,23 +425,39 @@ p.main-feature {
 .site-header-social-media-icon {
 	width: 2.25em;
 	height: 100%;
-	margin-left: 7.5%;
+	margin-left: 15%;
 }
 
 .social-media-icons {
 	display: flex;
 	justify-content: space-between;
-	padding-right: 7.5%;
+	padding-right: 7em;
 }
 
 .nav-subscribe-btn {
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
 	color: white;
 	font-size: 14px;
+	border-color: white;
+	font-weight: 500;
+	font-family: "Renner*";
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .ml-nav-bar {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 .navbar-subscribe {
@@ -452,12 +468,6 @@ p.main-feature {
 .social-media-and-subscribe {
 	display: flex;
 	justify-content: flex-end;
-}
-
-.navbar-subscribe-input {
-	padding-top: 1%;
-	padding-bottom: 1%;
-	width: 15em;
 }
 
 
