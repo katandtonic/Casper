@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 @font-face {
 	font-family: 'Sorts Mill';
 	src: url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.eot");
@@ -355,7 +363,7 @@ h1.readmore {
 }
 
 .main-feature-inner-frame {
-	border-color: red;
+	border-color: #f44842;
 	border-style: solid;
 	border-width: .5vw;
 }
@@ -391,7 +399,7 @@ p.main-feature {
 	margin-top: 1.75%;
 	margin-bottom: 1.75%;
 	border-style: solid;
-	border-color: red;
+	border-color: #f44842;
 	border-width: .15vw;
 	padding-left: 12.75%;
 	padding-right: 12.75%;
@@ -415,18 +423,41 @@ p.main-feature {
 
 
 .site-header-social-media-icon {
-	max-width: 2vw;
+	width: 2.25em;
 	height: 100%;
-	margin-left: 2.5%;
+	margin-left: 7.5%;
 }
 
 .social-media-icons {
-	margin-left: 5%;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 7.5%;
 }
 
 .nav-subscribe-btn {
 	color: white;
 	font-size: 14px;
+}
+
+.ml-nav-bar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-subscribe {
+	display: flex;
+	justify-content: end;
+}
+
+.social-media-and-subscribe {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbar-subscribe-input {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 15em;
 }
 
 
