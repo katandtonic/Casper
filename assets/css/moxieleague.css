@@ -465,7 +465,7 @@ p.main-feature {
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: middle;
-	border-style: solid;
+	borderii-style: solid;
 	border-color: white;
 	border-width: 1px;
 	color: white;
@@ -513,10 +513,10 @@ p.main-feature {
 }
 
 h2.ml-post-card-title {
-    margin-top: 0;
+    margin-top: 7.5%;
 	font-family: "adobe-caslon-pro";
 	font-size: 24px;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .moxieleague-post-card-image {
@@ -525,3 +525,84 @@ h2.ml-post-card-title {
     background-size: cover;
 }
 
+/* ---------------------------------------------------------- */
+/* Moxie League Footer
+/* ---------------------------------------------------------- */
+.moxieleague-footer {
+	background-color: #eaefef;
+}
+
+
+.moxieleague-subscribe-footer-inner {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.moxieleague-subscribe-footer-contents {
+	border-color: white;
+	border-width: .15vw;
+	border-style: solid;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 7.5%;
+}
+
+.temp-lotsa-space {
+	background-color: yellow;
+	height: 100px;
+}
+
+.subscribe-footer-btn {
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-color: #d7e0e0;
+	color: #4a4a4a;
+	font-size: 17px;
+	font-weight: 500;
+	font-family: "Renner*";
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	margin-top: 5%;
+}
+
+h1.subscribe-footer {
+	font-family: "Renner*";
+	font-size: 16px;
+	font-weight: 400;
+	font-color: #4a4a4a;
+	letter-spacing: .05vw;
+}
+
+.social-media-icon-footer {
+	width: 3vw;
+}
+
+h1.footer-social {
+	font-family: "Renner*";
+	font-size: 18px;
+	font-weight: 500;
+	font-color: #4a4a4a;
+}
+
+.social-and-conditions-footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+
+.social-and-conditions-inner {
+	margin-right: 20%;
+}
+
+h3.footer-info {
+	font-family: "Renner*";
+	font-size: 18px;
+	font-weight: 400;
+	font-color: #4a4a4a;
+}
