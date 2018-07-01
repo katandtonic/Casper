@@ -203,7 +203,7 @@ img.social-media-icon {
 	padding-bottom: 10.5%;
 	padding-left: 17.5%;
 	padding-right: 17.5%;
-	border-color: #F55555;
+	border-color: #f45a5b;
 	border-style: solid;
 	border-width: .15rem;
 }
@@ -253,7 +253,7 @@ h3.footer-subscribe-form-title {
 }
 
 .featurette-content-row {
-	border-color: #F55555;
+	border-color: #f45a5b;
 	border-style: solid;
 	border-width: .15vw;
 	padding: .5vw;
@@ -312,7 +312,7 @@ p.featurette-excerpt {
 	white-space: nowrap;
 	vertical-align: middle;
 	border-style: solid;
-	background-color: #F55555;
+	background-color: #f45a5b;
 	color: white;
 	font-size: 14px;
 	font-weight: 600;
@@ -324,7 +324,7 @@ p.featurette-excerpt {
 }
 
 .readmore-outside {
-	background-color: #F55555;
+	background-color: #f45a5b;
 	padding-top: .5vw;
 	padding-bottom:.5vw;
 	padding-left: .5vw;
@@ -396,7 +396,7 @@ h1.readmore {
 	background-color: white;
 	padding-left: 5.75%;
 	padding-right: 5.75%;
-	border-color: #F55555;
+	border-color: #f45a5b;
 	border-style: solid;
 	border-width: .15vw;
 	margin: 1%;
@@ -416,7 +416,7 @@ p.main-feature {
 	font-weight: 500;
 	color: #333333;
 	margin-top: 5%;
-	margin-bottom: 10%;
+	margin-bottom: 15%;
 }
 
 .main-feature-words-box-inner {
@@ -425,7 +425,7 @@ p.main-feature {
 	margin-top: 1.75%;
 	margin-bottom: 1.75%;
 	border-style: solid;
-	border-color: #F55555;
+	border-color: #f45a5b;
 	border-width: .15vw;
 	padding-left: 12.75%;
 	padding-right: 12.75%;
@@ -442,7 +442,7 @@ p.main-feature {
 /* TODO make this height responsive
 /* ---------------------------------------------------------- */
 .ml-site-header {
-	background-color: #F55555;
+	background-color: #f45a5b;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
 }
@@ -465,7 +465,7 @@ p.main-feature {
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: middle;
-	borderii-style: solid;
+	border-style: solid;
 	border-color: white;
 	border-width: 1px;
 	color: white;
@@ -540,17 +540,30 @@ h2.ml-post-card-title {
 }
 
 .moxieleague-subscribe-footer-contents {
-	border-color: white;
-	border-width: .15vw;
+	border-color: #f9fbfb;
+	border-width: .575vw;
 	border-style: solid;
 	margin-top: 10%;
 	margin-bottom: 10%;
-	padding: 7.5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 }
 
-.temp-lotsa-space {
+.copyright-footer {
 	background-color: yellow;
-	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: .65%;
+	padding-bottom: .65%;
+}
+
+p.copyright-footer {
+	font-family: "Avenir";
+	font-size: 14px;
+	margin-bottom: 0;
 }
 
 .subscribe-footer-btn {
@@ -579,7 +592,9 @@ h1.subscribe-footer {
 }
 
 .social-media-icon-footer {
-	width: 3vw;
+	width: 2.5vw;
+	margin-right: 15%;
+	height: 100%;
 }
 
 h1.footer-social {
@@ -591,13 +606,18 @@ h1.footer-social {
 
 .social-and-conditions-footer {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
 	height: 100%;
 }
 
 .social-and-conditions-inner {
-	margin-right: 20%;
+}
+
+.footer-social-media-icons {
+	margin-bottom: 25%;
+	display: flex;
+	flex-wrap: nowrap;
 }
 
 h3.footer-info {
