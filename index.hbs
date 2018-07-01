@@ -49,38 +49,6 @@ into the {body} of the default.hbs template --}}
   <div class="second-featurette">
     {{#get "posts" limit="1" include="tags" page="7" as |posts|}}
       {{#foreach posts}}
-        <div class="featurette-content-row row">
-          <div class="col-sm-5">
-            <div class="row justify-content-center">
-              <img class="featurette-tag-icon" src="https://moxieleague.nyc3.digitaloceanspaces.com/site-icons/apple.svg" />
-            </div><!-- row -->
-
-            <p class="featurette-tag text-center highlighted-underscore">INTERVIEW</p>
-
-            <div class="justify-content-center">
-              <div class="container">
-                <h1 class="featurette-title text-center">Test blah glah</h1>
-
-
-
-                <div class="featurette-excerpt">
-                  <p class="featurette-excerpt">These are the best tips you'll ever need you dont need anything else. Isn't that so great?<p>
-                </div><!-- featurette-excerpt -->
-
-                <div class="readmore-outside">
-                  <div class="readmore-inside">
-                    <h1 class="readmore text-center">READ MORE</h1>
-                  </div>
-                </div>
-              </div>
-            </div><!-- container -->
-
-            
-          </div><!-- col-sm-5 -->
-          <div class="col-sm-7 justify-content-end" style="padding-left: 0; padding-right: 0;">
-            <img src= "https://moxieleague.nyc3.digitaloceanspaces.com/blog-images/EClass_Photoshop_Designing_Textures_012.jpg" />
-          </div>
-        </div><!-- row -->
       {{/foreach}}
     {{/get}}
   </div><!-- two-piece-feature -->
