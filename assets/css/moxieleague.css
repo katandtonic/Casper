@@ -499,6 +499,11 @@ p.main-feature {
 
 /* Post Card =
 /* ---------------------------------------------------------- */
+.post-card-content {
+	background-color: #f4f4f4;
+	height: 175px;
+}
+
 .post-card-content-link {
 	padding-top: 5%;
 	padding-left: 12.5%;
@@ -509,7 +514,7 @@ p.main-feature {
 .post-card-tags {
 	font-family: "Renner*";
 	font-size: 14px;
-	color: green;
+	color: #f45a5b;
 }
 
 h2.ml-post-card-title {
@@ -595,13 +600,6 @@ h1.subscribe-footer {
 	width: 2.5vw;
 	margin-right: 15%;
 	height: 100%;
-}
-
-h1.footer-social {
-	font-family: "Renner*";
-	font-size: 18px;
-	font-weight: 500;
-	font-color: #4a4a4a;
 }
 
 .social-and-conditions-footer {
