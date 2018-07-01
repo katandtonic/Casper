@@ -442,7 +442,6 @@ p.main-feature {
 /* TODO make this height responsive
 /* ---------------------------------------------------------- */
 .ml-site-header {
-	background-color: #f45a5b;
 	padding-top: .5vw;
 	padding-bottom: .5vw;
 }
@@ -466,11 +465,10 @@ p.main-feature {
 	white-space: nowrap;
 	vertical-align: middle;
 	border-style: solid;
-	border-color: white;
+	border-color: #333333;
 	border-width: 1px;
-	color: white;
+	color: #333333;
 	font-size: 14px;
-	border-color: white;
 	font-weight: 500;
 	font-family: "Renner*";
 	padding-left: 15%;
