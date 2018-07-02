@@ -9,23 +9,27 @@ into the {body} of the default.hbs template --}}
 
 
 
-<div class="main-feature-post2">
-  <div class="main-feature-border">
-    <div class="main-content-border-outer">
-      <div class="main-feature-content-container">
-        <img class="main-feature-icon" style="margin-left: auto; margin-right: auto; display: block;" src="https://moxieleague.nyc3.digitaloceanspaces.com/site-icons/school.svg" />
-        <p class="featurette-tag text-center highlighted-underscore">INTERVIEW</p>
-        <h1 class="main-feature text-center">Why you are doing SEO all wrong</h1>
-        <p class="main-feature">They lived near a gorgeous beach in sunny San Diego. They frequently dined at sushi restaurants. They drove a BMW.</p>
-        <div class="d-flex justify-content-center" style="margin-bottom: 2.5%">
-          <a class="readmore-btn" href="#">READ MORE</a>       
-        </div>
-      </div><!-- main-feature-content-container -->
-    </div><!-- main-content-border-outer -->
-  </div><!-- main-feature-content-container -->
-</div><!-- main-feature-post2 -->
+<div class="main-feature-post1">
+  <div class="main-feature1-content">
+    <div class="row">
+
+      <div class="col-7 d-flex justify-content-start align-middle" style="padding-left: 0; padding-right: 0;">
+        <img src="https://moxieleague.nyc3.digitaloceanspaces.com/featured-20.jpg" class="main-feature1" />
+      </div>
 
 
+      <div class="col-5">
+        <div class="main-feature1-text-container">
+          <p class="featurette-tag">FEATURE</p>
+          <h1 class="main-feature1">Twelve Ways to Jumpstart Your Business Today</h1>
+          <p class="main-feature1">This is supposed to be a longish excerpt about something or other. This is supposed to be a longish excerpt about something or other. This is supposed to be a longish excerpt about something or</p>
+          <a class="readmore-btn">READ MORE</a>
+        </div><!-- main-feature1-text-container -->
+      </div>
+
+    </div><!-- row -->
+  </div>
+</div>
 
 
 
@@ -44,15 +48,23 @@ into the {body} of the default.hbs template --}}
   </div>
 </div>
 
+<div class="main-feature-post2">
+  <div class="main-feature-border">
+    <div class="main-content-border-outer">
+      <div class="main-feature-content-container">
+        <img class="main-feature-icon" style="margin-left: auto; margin-right: auto; display: block;" src="https://moxieleague.nyc3.digitaloceanspaces.com/site-icons/school.svg" />
+        <p class="featurette-tag text-center highlighted-underscore">INTERVIEW</p>
+        <h1 class="main-feature text-center">Why you are doing SEO all wrong</h1>
+        <p class="main-feature">They lived near a gorgeous beach in sunny San Diego. They frequently dined at sushi restaurants. They drove a BMW.</p>
+        <div class="d-flex justify-content-center" style="margin-bottom: 2.5%">
+          <a class="readmore-btn" href="#">READ MORE</a>
+        </div>
+      </div><!-- main-feature-content-container -->
+    </div><!-- main-content-border-outer -->
+  </div><!-- main-feature-content-container -->
+</div><!-- main-feature-post2 -->
 
-<div class="no-padding-lr-container" style="padding-left: 0; padding-right: 0;">
-  <div class="second-featurette">
-    {{#get "posts" limit="1" include="tags" page="7" as |posts|}}
-      {{#foreach posts}}
-      {{/foreach}}
-    {{/get}}
-  </div><!-- two-piece-feature -->
-</div>
+
 
 <div class="container-fluid">
   <div class="decorative-row-first row">
