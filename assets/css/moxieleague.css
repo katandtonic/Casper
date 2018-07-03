@@ -309,7 +309,7 @@ p.featurette-excerpt {
 .readmore-btn {
 	display: inline-block;
 	text-align: center;
-	white-space: nowrap;
+	white-space: initial;
 	vertical-align: middle;
 	border-style: solid;
 	background-color: #f45a5b;
@@ -457,13 +457,12 @@ p.main-feature {
 	display: flex;
 	justify-content: space-between;
 	padding-right: 7em;
+	align-items: baseline;
+	margin-right: 5%;
 }
 
 .nav-subscribe-btn {
-	display: inline-block;
 	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
 	border-style: solid;
 	border-color: #333333;
 	border-width: 1px;
@@ -471,17 +470,19 @@ p.main-feature {
 	font-size: 14px;
 	font-weight: 500;
 	font-family: "Renner*";
-	padding-left: 15%;
-	padding-right: 15%;
+	padding-left: 12.5%;
+	padding-right: 12.5%;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	margin-right: 5%;
 }
 
 .ml-nav-bar {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	padding-top: .5%;
+	padding-bottom: .5%;
+	margin-left: 5%;
 }
 
 .navbar-subscribe {
@@ -491,7 +492,9 @@ p.main-feature {
 
 .social-media-and-subscribe {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
+	align-items: center;
+	margin-right: 5%;
 }
 
 
@@ -525,7 +528,7 @@ h2.ml-post-card-title {
 
 .moxieleague-post-card-image {
     width: auto;
-    height: 27.5vw;
+    height: 25vw;
     background-size: cover;
 }
 
