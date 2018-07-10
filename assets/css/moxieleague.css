@@ -6,13 +6,6 @@
 
 
 
-@font-face {
-	font-family: 'Sorts Mill';
-	src: url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.eot");
-	src: url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.woff") format("woff"),
-	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.ttf") format("truetype"),
-	url("../font/sorts-mill-goudy-master/webfonts/GoudyStM-webfont.svg") format("svg")
-}
 
 /* 7.1. Subscribe Form
 /* ---------------------------------------------------------- */
@@ -29,7 +22,6 @@ h3.subscribe-form-title {
     line-height: 1;
     font-weight: 700;
 	font-family: "Brandon Regular";
-	color: ;
 }
 
 p.subscribe-form-p {
@@ -203,7 +195,7 @@ img.social-media-icon {
 	padding-bottom: 10.5%;
 	padding-left: 17.5%;
 	padding-right: 17.5%;
-	border-color: #f45a5b;
+	border-color: #FF4C3E;
 	border-style: solid;
 	border-width: .15rem;
 }
@@ -253,7 +245,7 @@ h3.footer-subscribe-form-title {
 }
 
 .featurette-content-row {
-	border-color: #f45a5b;
+	border-color: #FF4C3E;
 	border-style: solid;
 	border-width: .15vw;
 	padding: .5vw;
@@ -275,7 +267,7 @@ h3.footer-subscribe-form-title {
 }
 
 p.featurette-tag {
-	font-family: "Renner*";
+	font-family: "futura-pt";
 	font-size: 135%;
 	font-weight: 600;
 	margin-bottom: 0;
@@ -312,11 +304,11 @@ p.featurette-excerpt {
 	white-space: initial;
 	vertical-align: middle;
 	border-style: solid;
-	background-color: #f45a5b;
+	background-color: #FF4C3E;
 	color: white;
 	font-size: 14px;
 	font-weight: 600;
-	font-family: "Renner*";
+	font-family: "futura-pt";
 	padding-left: 7.5%;
 	padding-right: 7.5%;
 	padding-top: 2.5%;
@@ -324,7 +316,7 @@ p.featurette-excerpt {
 }
 
 .readmore-outside {
-	background-color: #f45a5b;
+	background-color: #FF4C3E;
 	padding-top: .5vw;
 	padding-bottom:.5vw;
 	padding-left: .5vw;
@@ -396,7 +388,7 @@ h1.readmore {
 	background-color: white;
 	padding-left: 5.75%;
 	padding-right: 5.75%;
-	border-color: #f45a5b;
+	border-color: #FF4C3E;
 	border-style: solid;
 	border-width: .15vw;
 	margin: 1%;
@@ -425,7 +417,7 @@ p.main-feature {
 	margin-top: 1.75%;
 	margin-bottom: 1.75%;
 	border-style: solid;
-	border-color: #f45a5b;
+	border-color: #FF4C3E;
 	border-width: .15vw;
 	padding-left: 12.75%;
 	padding-right: 12.75%;
@@ -469,7 +461,7 @@ p.main-feature {
 	color: #333333;
 	font-size: 14px;
 	font-weight: 500;
-	font-family: "Renner*";
+	font-family: "futura-pt";
 	padding-left: 15.5%;
 	padding-right: 15.5%;
 	padding-top: 7.5%;
@@ -513,9 +505,9 @@ p.main-feature {
 }
 
 .post-card-tags {
-	font-family: "Renner*";
+	font-family: "futura-pt";
 	font-size: 14px;
-	color: #f45a5b;
+	color: #FF4C3E;
 }
 
 h2.ml-post-card-title {
@@ -596,7 +588,7 @@ p.copyright-footer {
 	color: #4a4a4a;
 	font-size: 17px;
 	font-weight: 500;
-	font-family: "Renner*";
+	font-family: "futura-pt";
 	padding-left: 7.5%;
 	padding-right: 7.5%;
 	padding-top: 2.5%;
@@ -605,7 +597,7 @@ p.copyright-footer {
 }
 
 h1.subscribe-footer {
-	font-family: "Renner*";
+	font-family: "futura-pt";
 	font-size: 16px;
 	font-weight: 400;
 	font-color: #4a4a4a;
@@ -635,7 +627,7 @@ h1.subscribe-footer {
 }
 
 h3.footer-info {
-	font-family: "Renner*";
+	font-family: "futura-pt";
 	font-size: 18px;
 	font-weight: 400;
 	font-color: #4a4a4a;
@@ -647,7 +639,7 @@ h3.footer-info {
 .main-feature-post1 {
 	padding-right: 5%;
 	padding-left: 5%;
-	background-color: #f5f5f5;
+	background-color: #f2f6f9;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1070px) {
