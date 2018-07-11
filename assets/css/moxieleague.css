@@ -448,9 +448,8 @@ p.main-feature {
 .social-media-icons {
 	display: flex;
 	justify-content: space-between;
-	padding-right: 7em;
+	padding-right: 3.5vw;
 	align-items: baseline;
-	margin-right: 5%;
 }
 
 .nav-subscribe-btn {
@@ -474,7 +473,8 @@ p.main-feature {
 	justify-content: space-between;
 	padding-top: .5%;
 	padding-bottom: .5%;
-	margin-left: 0;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 }
 
 .navbar-subscribe {

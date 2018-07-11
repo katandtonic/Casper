@@ -39,7 +39,8 @@
 
 h1.post-full-title {
 	font-family: "";
-	font-size: 3rem;
+	font-size: 2.65vw;
+	text-align: center;
 }
 
 .more-posts-container {
@@ -51,10 +52,13 @@ h1.post-full-title {
 
 h1.more-posts {
 	font-size: 1.5rem;
-	color: ;
 }
 
 img.more-post {
-	width: 210px;
-	height: auto;
+
+}
+
+.ml-post-full-header {
+	padding-bottom: 1.5vw;
+	padding-top: 1.5vw;
 }
