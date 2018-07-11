@@ -31,15 +31,11 @@
 	color: #333333;
 }
 
-.ml-post-full-title {
-	font-family: "";
+h1.ml-post-full-title {
+	font-family: "Soleil";
 	color: #333333;
-	font-size: 3rem;
-}
-
-h1.post-full-title {
-	font-family: "";
-	font-size: 2.65vw;
+	font-size: 2.75rem;
+	font-weight: 600;
 	text-align: center;
 }
 
