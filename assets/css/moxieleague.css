@@ -434,8 +434,8 @@ p.main-feature {
 /* TODO make this height responsive
 /* ---------------------------------------------------------- */
 .ml-site-header {
-	padding-top: .5vw;
-	padding-bottom: .5vw;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 
@@ -448,7 +448,7 @@ p.main-feature {
 .social-media-icons {
 	display: flex;
 	justify-content: space-between;
-	padding-right: 3.5vw;
+	padding-right: 3.75vw;
 	align-items: baseline;
 }
 
@@ -458,14 +458,13 @@ p.main-feature {
 	border-color: #333333;
 	border-width: 1px;
 	color: #333333;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 500;
 	font-family: "futura-pt";
-	padding-left: 15.5%;
-	padding-right: 15.5%;
-	padding-top: 7.5%;
-	padding-bottom: 7.5%;
-	margin-right: 5%;
+	padding-left: 5.5%;
+	padding-right: 5.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
 }
 
 .ml-nav-bar {
