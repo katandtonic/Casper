@@ -28,22 +28,13 @@ into the {body} of the default.hbs template --}}
             </header>
 
             {{#if feature_image}}
-            <figure class="post-full-image" style="background-image: url({{feature_image}})">
+            <figure class="post-hero-image" style="background-image: url({{feature_image}})">
             </figure>
             {{/if}}
 
-            <section class="post-full-content">
+            <section class="ml-post-content">
                 {{content}}
             </section>
-
-            {{!-- Email subscribe form at the bottom of the page --}}
-            {{#if @labs.subscribers}}
-            <section class="subscribe-form">
-                <h3 class="subscribe-form-title">Subscribe to {{@blog.title}}</h3>
-                <p>Get the latest posts delivered right to your inbox</p>
-                {{subscribe_form placeholder="youremail@example.com"}}
-            </section>
-            {{/if}}
 
             <footer class="post-full-footer">
 
@@ -77,26 +68,7 @@ into the {body} of the default.hbs template --}}
 
 
 
-
-{{!-- Email Sign up prompt --}}
-<section class="subscribe-call-to-action">
-  <div class="container" style="padding: 5%;">
-    <div class="row">
-      <h3 class="subscribe-form-titletest text-center">SUBSCRIBE</h3>
-    </div>
-    <div class="row">
-      <p class="subscribe-form-p text-center">A newsletter about starting and building your business, delivered straight to your inbox every Wednesday AM</h5>
-    </div>
-
-    <form class="post-subscribe-form">
-      <div class="row">
-        <input class="post-subscribe-input" type="email" placeholder="Email" id="post-subscriber-email-input" required>
-        <button class="btn" type="submit">JOIN</button>
-      </div><!-- row -->
-    </form>
-  </div>
-</section>
-
+{{> "subscribe-cta"}}
 
 
 
@@ -108,14 +80,14 @@ into the {body} of the default.hbs template --}}
 
 
 {{!-- Links to related posts --}}
-<div class="container" style="padding-top: 10%; padding-bottom: 10%;">
+<div class="more-posts-container">
   <div class="inner">
-    <h1>More from Moxie League</h1>
+    <h1 class="more-posts">More Posts</h1>
     <div class="row">
       {{#get "posts" limit="3" as |recent_posts|}}
         {{#foreach recent_posts}}
           <div class="col-4">
-            <img src={{feature_image}} />
+            <img class="more-post" src={{feature_image}} />
             <h1 style="text-center">{{title}}</h1> 
           </div>
         {{/foreach}}
@@ -123,9 +95,6 @@ into the {body} of the default.hbs template --}}
     </div><!-- row -->
   </div><!-- inner -->
 </div>
-
-{{!-- Floating header which appears on-scroll, included from includes/floating-header.hbs --}}
-{{> floating-header}}
 
 {{/post}}
 
