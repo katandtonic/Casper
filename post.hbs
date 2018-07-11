@@ -29,23 +29,6 @@ into the {body} of the default.hbs template --}}
                 {{content}}
             </section>
 
-            <footer class="post-full-footer">
-
-                {{!-- There are two options for how we display the byline/author-info.
-                If the post has more than one author, we load a specific template
-                from includes/byline-multiple.hbs, otherwise, we just use the
-                default byline. --}}
-
-                {{!-- Do not display author right now--}}
-                {{!-- {{#has author="count:>1"}} --}}
-                    {{!-- {{> "byline-multiple"}} --}}
-                {{!-- {{else}} --}}
-                    {{!-- {{> "byline-single"}} --}}
-                {{!-- {{/has}} --}}
-                
-
-            </footer>
-
             {{!--
             <section class="post-full-comments">
                 If you want to embed comments, this is a good place to do it!
@@ -73,7 +56,7 @@ into the {body} of the default.hbs template --}}
 
 
 {{!-- Links to related posts --}}
-<div class="more-posts-container">
+<div class="more-posts-container inner">
   <div class="inner">
     <h1 class="more-posts">More Posts</h1>
     <div class="row">
@@ -81,7 +64,7 @@ into the {body} of the default.hbs template --}}
         {{#foreach recent_posts}}
           <div class="col-4">
             <img class="more-post" src={{feature_image}} />
-            <h1 style="text-center">{{title}}</h1> 
+            <h1 style="text-center" class="more-posts-post">{{title}}</h1> 
           </div>
         {{/foreach}}
       {{/get}}
