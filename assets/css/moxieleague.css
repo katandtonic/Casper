@@ -21,7 +21,7 @@ h3.subscribe-form-title {
     font-size: 3.5rem;
     line-height: 1;
     font-weight: 400;
-	font-family: "Soleil";
+	font-family: "futura-pt";
 }
 
 p.subscribe-form-p {
@@ -718,5 +718,6 @@ p.main-feature1 {
 img.main-feature1 {
 }
 
-
-
+.footer-subscribe-form-control {
+	width: 17.5vw;
+}
