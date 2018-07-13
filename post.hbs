@@ -55,7 +55,7 @@ into the {body} of the default.hbs template --}}
     <div class="row">
       {{#get "posts" limit="3" as |recent_posts|}}
         {{#foreach recent_posts}}
-          <div class="col-4">
+          <div class="col-sm-4">
             <img class="more-post" src={{feature_image}} />
             <h1 style="text-center" class="more-posts-post">{{title}}</h1> 
           </div>
