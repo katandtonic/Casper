@@ -244,6 +244,7 @@ h3.footer-subscribe-form-title {
 	padding-bottom: 1.25%;
 	padding-left: 2.5%;
 	padding-right: 2.5%;
+	white-space: nowrap;
 }
 
 /* 3. Two Piece Featurette
@@ -720,4 +721,5 @@ img.main-feature1 {
 
 .footer-subscribe-form-control {
 	width: 17.5vw;
+	font-size: 16px;
 }

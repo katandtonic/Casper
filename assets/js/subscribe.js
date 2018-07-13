@@ -24,7 +24,7 @@ function subscribe_cta_btn(e) {
 function subscribe_footer_btn(e) {
     e.preventDefault();
     var btn_id = "#footer-subscribe-btn";
-    var input_id = "#footer-subscriber-email";
+    var input_id = "#footer-subscribe-form-control";
     user_subscribe(btn_id, input_id)
 }
 

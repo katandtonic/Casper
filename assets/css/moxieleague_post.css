@@ -27,8 +27,9 @@
 
 .ml-post-content {
 	font-family: "proxima-soft";
-	font-size: 18.75px;
+	font-size: 18px;
 	color: #333333;
+	font-weight: 600;
 }
 
 h1.ml-post-full-title {
@@ -52,11 +53,7 @@ h1.more-posts {
 	font-family: "";
 }
 
-img.more-post {
-
-}
-
-.ml-post-full-header {
+. ml-post-full-header {
 	padding-bottom: 1.5vw;
 	padding-top: 1.5vw;
 }
@@ -69,8 +66,4 @@ h1.more-posts-post {
 p.cta-terms-qualifier {
 	font-size: 11.75px;
 	font-color: darkgray;
-}
-
-.footer-subscribe-form-control {
-
 }
