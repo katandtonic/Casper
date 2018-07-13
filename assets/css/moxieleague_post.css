@@ -34,15 +34,17 @@
 h1.ml-post-full-title {
 	font-family: "mrs-eaves-xl-serif";
 	color: #333333;
-	font-size: 4.25rem;
+	font-size: 4.75rem;
 	font-weight: 600;
 	text-align: center;
+	font-family: "mrs-eaves-xl-serif";
 }
 
 .more-posts-container {
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 2.5%;
+	max-width: 1190px;
 }
 
 h1.more-posts {

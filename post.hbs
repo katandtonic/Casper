@@ -50,8 +50,7 @@ into the {body} of the default.hbs template --}}
 
 
 {{!-- Links to related posts --}}
-<div class="more-posts-container inner">
-  <div class="inner">
+<div class="more-posts-container">
     <h1 class="more-posts">More Posts</h1>
     <div class="row">
       {{#get "posts" limit="3" as |recent_posts|}}
@@ -63,7 +62,6 @@ into the {body} of the default.hbs template --}}
         {{/foreach}}
       {{/get}}
     </div><!-- row -->
-  </div><!-- inner -->
 </div>
 
 {{/post}}
