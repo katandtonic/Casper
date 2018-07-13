@@ -2,9 +2,9 @@
 	background: none;
 	border-bottom-color: lightgray;
 	border-bottom-style: solid;
-	border-bottom-width: .15rem;
-	padding-top: .25%;
-	padding-bottom: .25%;
+	border-bottom-width: .005rem;
+	padding-top: .1%;
+	padding-bottom: .1%;
 }
 
 .site-header:before {
@@ -60,10 +60,14 @@ h1.more-posts {
 
 h1.more-posts-post {
 	text-align: center;
-	font-size: 1.15vw;
+	font-size: 1.85vw;
 }
 
 p.cta-terms-qualifier {
 	font-size: 11.75px;
 	font-color: darkgray;
+}
+
+.blockquote {
+	max-width: 65%;
 }
