@@ -8,11 +8,11 @@
 	border-style: solid;
 	border-color: #FF4C3E;
 	margin: 1.5%;
-	padding-left: 5%;
-	padding-right: 5%;
+	border-width: .15rem;
 }
 
 .ml-modal-header {
+	display: flex;
 	padding-top: .5rem;
 	padding-right: .5rem;
 	border-bottom-style: none;
@@ -27,7 +27,7 @@ h3.subscribe-success-modal {
 	font-family: "funkydori";
 	font-size: 3rem;
 	margin-bottom: 0;
-	line-height: 0;
+	line-height: 1;
 }
 
 img.modal-success {
@@ -37,12 +37,12 @@ img.modal-success {
 }
 
 .modal-text-container {
-	padding-top: 15%;
-	padding-bottom: 7.5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
-p.footer-subscribe-form-p {
-	font-family: "";
+p.modal-description {
+	text-align: center;
+	font-size: 16px;
 	color: #333333;
-	font-size: 2rem;
 }
