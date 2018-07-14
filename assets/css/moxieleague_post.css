@@ -63,8 +63,9 @@ h1.ml-post-full-title {
 }
 
 h1.more-posts {
-	font-size: 1.5rem;
+	font-size: 3.5rem;
 	font-family: "";
+	text-align: center;
 }
 
 . ml-post-full-header {
