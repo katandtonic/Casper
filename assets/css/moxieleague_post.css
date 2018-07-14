@@ -33,13 +33,6 @@
 	width: auto;
 }
 
-.ml-post-content {
-	font-family: "proxima-soft";
-	font-size: 24px;
-	color: #333333;
-	font-weight: 600;
-}
-
 @media only screen and (max-width: 600px) {
 	.ml-post-content {
 		padding-left: 5%;
@@ -48,12 +41,11 @@
 }
 
 h1.ml-post-full-title {
-	font-family: "mrs-eaves-xl-serif";
+	font-family: "proxima-soft";
 	color: #333333;
 	font-size: 4.75rem;
 	font-weight: 600;
 	text-align: center;
-	font-family: "mrs-eaves-xl-serif";
 }
 
 .more-posts-container {
@@ -96,15 +88,17 @@ p.cta-terms-qualifier {
 }
 
 .kg-post p {
-	font-family: "proxima-soft";
-	font-size: 23.5px;
+	font-family: "avenir";
+	font-size: 25px;
 	color: #333333;
 	margin-bottom: 1.5em;
+	font-weight: 400;
 }
 
 .kg-post h2 {
-	font-family: "mrs-eaves-xl-serif";
-	font-size: 28px;
+	font-family: "proxima-soft";
+	font-size: 46px;
 	color: blue;
 	font-weight: 600;
+	margin-bottom: 1.5rem;
 }
