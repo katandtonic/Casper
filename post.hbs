@@ -55,7 +55,7 @@ into the {body} of the default.hbs template --}}
     <div class="decorative-row-first row">
       {{#get "posts" limit="3" as |recent_posts|}}
         {{#foreach recent_posts}}
-          <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
+          <div class="col-sm-4" style="padding-left: 1.75%; padding-right: 1.75%">
             {{> "moxieleague-post-card"}}
           </div>
         {{/foreach}}
