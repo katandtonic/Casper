@@ -604,6 +604,7 @@ h2.ml-post-card-title {
 	padding-bottom: 5%;
 	padding-left: 5%;
 	padding-right: 5%;
+	display: flex;
 }
 
 
@@ -645,15 +646,6 @@ p.copyright-footer {
 	padding-top: 2.5%;
 	padding-bottom: 2.5%;
 	margin-top: 2.5%;
-}
-
-h1.subscribe-footer {
-	font-family: "futura-pt";
-	font-size: 14px;
-	font-weight: 600;
-	font-color: #4a4a4a;
-	letter-spacing: .05vw;
-	text-align: center;
 }
 
 .social-media-icon-footer {
@@ -786,7 +778,7 @@ img.main-feature1 {
 .footer-subscribe-form-control {
 	font-size: 16px;
 	display: block;
-	width: 100%;
+	width: 320px;
 	padding: 3.5%;
 	color: #495057;
 	background-clip: padding-box;
