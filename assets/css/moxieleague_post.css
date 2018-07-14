@@ -35,7 +35,7 @@
 
 .ml-post-content {
 	font-family: "proxima-soft";
-	font-size: 18px;
+	font-size: 24px;
 	color: #333333;
 	font-weight: 600;
 }
@@ -83,6 +83,28 @@ p.cta-terms-qualifier {
 	font-color: darkgray;
 }
 
+
+/* 7.1. Styles to be used in the Ghost editor
+/* ---------------------------------------------------------- */
+.kg-post img {
+	display: block;
+	margin: 0 auto;
+}
+
 .blockquote {
 	max-width: 65%;
+}
+
+.kg-post p {
+	font-family: "proxima-soft";
+	font-size: 23.5px;
+	color: #333333;
+	margin-bottom: 1.5em;
+}
+
+.kg-post h2 {
+	font-family: "mrs-eaves-xl-serif";
+	font-size: 28px;
+	color: blue;
+	font-weight: 600;
 }
