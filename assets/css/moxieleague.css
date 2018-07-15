@@ -281,7 +281,7 @@ h3.footer-subscribe-form-title {
 
 
 .featurette-title {
-	font-family: "adobe-caslon-pro";
+	font-family: "proxima-soft";
 	font-size: 36px;
 	font-weight: 500;
 }
@@ -424,7 +424,7 @@ h1.readmore {
 
 
 h1.main-feature {
-	font-family: "adobe-caslon-pro";
+	font-family: "proxima-soft";
 	font-size: 34px;
 	font-weight: 650;
 	margin-top: 7%;
@@ -476,7 +476,7 @@ p.main-feature {
 .social-media-icons {
 	display: flex;
 	justify-content: space-between;
-	padding-right: 3.75vw;
+	padding-right: 5vw;
 	align-items: baseline;
 }
 
@@ -500,6 +500,8 @@ p.main-feature {
 	justify-content: space-between;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -554,13 +556,14 @@ p.main-feature {
 	font-family: "futura-pt";
 	font-size: 14px;
 	color: #FF4C3E;
+	font-weight: 700;
 }
 
 h2.ml-post-card-title {
     margin-top: 7.5%;
-	font-family: "adobe-caslon-pro";
+	font-family: "proxima-soft";
 	font-size: 24px;
-	font-weight: 400;
+	font-weight: 600;
 	color: #1a1c4c;
 }
 
@@ -757,9 +760,10 @@ h3.footer-info {
 
 
 h1.main-feature1 {
-	font-family: "adobe-caslon-pro";
+	font-family: "proxima-soft";
 	font-size: 4em;
 	margin-top: 7.5%;
+	weight: 600;
 }
 
 .main-feature1-text-container {
