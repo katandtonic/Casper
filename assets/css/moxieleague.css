@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.ml-inner {
+
+}
+
 /* 7.1. Subscribe Form
 /* ---------------------------------------------------------- */
 
@@ -456,7 +460,39 @@ p.main-feature {
 	height: 2.75vw;
 }
 
+/* Responsive For Mobile*/
 
+@media screen and (max-width:600px){
+    .main-feature-post2 {
+    background-position: top;
+    background-size: contain;
+    min-height: 39em;
+    position: relative;
+}
+.main-content-border-outer {
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+}
+
+@media screen and (max-width:480px){
+
+.main-feature-post2 {
+    min-height: 34em;
+}
+
+}
+
+@media screen and (max-width:384px){
+.main-feature-post2 {
+    min-height: 32em;
+}
+
+}
 /* Site Header
 /* ---------------------------------------------------------- */
 /* TODO make this height responsive
@@ -468,7 +504,7 @@ p.main-feature {
 
 
 .site-header-social-media-icon {
-	width: 2.25em;
+	width: 2.15em;
 	height: 100%;
 	margin-left: 15%;
 }
@@ -476,7 +512,7 @@ p.main-feature {
 .social-media-icons {
 	display: flex;
 	justify-content: space-between;
-	padding-right: 5vw;
+	padding-right: 78.5px;
 	align-items: baseline;
 }
 

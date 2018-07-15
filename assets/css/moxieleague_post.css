@@ -1,9 +1,9 @@
 .site-header {
-	border-bottom-color: lightgray;
+	border-bottom-color: #FF4C3E;
 	border-bottom-style: solid;
-	border-bottom-width: .005rem;
-	padding-top: .1%;
-	padding-bottom: .1%;
+	border-bottom-width: .35rem;
+	padding-top: .35%;
+	padding-bottom: .35%;
 	margin-bottom: 3.5%;
 	background: none;
 }
