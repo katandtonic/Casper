@@ -43,9 +43,11 @@
 h1.ml-post-full-title {
 	font-family: "proxima-soft";
 	color: #333333;
-	font-size: 4.75rem;
+	font-size: 5.25rem;
 	font-weight: 600;
 	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 .more-posts-container {
@@ -117,4 +119,8 @@ p.cta-terms-qualifier {
 	margin-bottom: 5%;
     width: 65%;
 	padding: 5%;
+}
+
+div#id_div > p:first-of-type {
+    background: #ff0000;
 }
