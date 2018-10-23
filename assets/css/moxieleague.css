@@ -159,9 +159,7 @@ img.social-media-icon {
 }
 
 .decorative-row-first {
-	padding-bottom: 5%;
-	padding-right: 2.5%;
-	padding-left: 2.5%;
+	padding-bottom: 2.5%;
 }
 
 
@@ -781,8 +779,6 @@ h3.footer-info {
 .main-feature1-content {
 	margin-top: 2.5%;
 	margin-bottom: 2.5%;
-	margin-left: 7.5%;
-	margin-right: 7.5%;
 }
 
 @media screen-only and (max-width: 575px) {
@@ -808,6 +804,7 @@ h1.main-feature1 {
 	padding-right: 10%;
 	padding-left: 10%;
 	background-color: white;
+	height: 100%;
 }
 
 p.main-feature1 {
@@ -815,9 +812,6 @@ p.main-feature1 {
 	color: #333333;
 	font-size: 1.65rem;
 	margin-bottom: 17.5%;
-}
-
-img.main-feature1 {
 }
 
 .footer-subscribe-form-control {
@@ -829,4 +823,12 @@ img.main-feature1 {
 	background-clip: padding-box;
 	border: 1px solid #ced4da;
 	border-radius: .25rem;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1600px) {
+	img.hero1-img {
+		width: 70%;
+		height: auto;
+	}
 }
