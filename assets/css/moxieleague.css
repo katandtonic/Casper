@@ -824,11 +824,3 @@ p.main-feature1 {
 	border: 1px solid #ced4da;
 	border-radius: .25rem;
 }
-
-
-@media only screen and (min-width: 768px) and (max-width: 1600px) {
-	img.hero1 {
-		width: 70%;
-		height: auto;
-	}
-}
