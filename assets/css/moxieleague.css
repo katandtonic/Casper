@@ -762,6 +762,7 @@ h3.footer-info {
 	padding-right: 7.5%;
 	max-width: 1800px;
 	flex-wrap: wrap;
+	align-items: flex-start;
 }
 
 img.hero1 {
@@ -770,13 +771,16 @@ img.hero1 {
 
 .hero-sidebar-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	background-color: red;
 	flex-wrap: wrap;
 	flex-direction: column;
 	width: 40%;
-	height: 40px;
+}
+
+.sidebar-text {
+}
+
+.sidebar-img {
 }
 
 @media (max-width: 800px) {
@@ -788,12 +792,12 @@ img.hero1 {
 	    flex-wrap: wrap;
 	    flex-direction: column;
 	    width: 100%;
-	    height: 40px;
     }
 }
 
 .sidebar-article-container {
 	border: 1px solid #fff;
+	display: flex;
 }
 
 .main-feature {
