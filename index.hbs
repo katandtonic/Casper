@@ -3,34 +3,47 @@
 into the {body} of the default.hbs template --}}
 
 <header class="ml-site-header">
-        {{> "post-site-nav"}}
+  {{> "post-site-nav"}}
 </header>
 
 
 
+<div class="hero1-wrapper">
+  <div class="main-feature-post1">
+    <div class="site-wrapper">
+      <div class="main-feature1-content">
+        <div class="row">
 
-<div class="main-feature-post1">
-  <div class="site-wrapper">
-  <div class="main-feature1-content">
-    <div class="row">
+          <div class="col-lg-8 col-xs-6" style="padding-left: 0; padding-right: 0;">
+            <img src="https://moxieleague.nyc3.digitaloceanspaces.com/itchymammals/blog-front-page/sample-large.jpg" class="hero1"/>
+          </div>
 
-      <div class="col-lg-8 col-xs-6" style="padding-left: 0; padding-right: 0;">
-        <img src="https://moxieleague.nyc3.digitaloceanspaces.com/itchymammals/blog-front-page/sample-large.jpg" class="hero1"/>
+
+          <div class="col-lg-4 col-xs-6" style="padding-left: 0; padding-right:0;">
+            <div class="main-feature1-text-container">
+              <p class="post-card-tags">FEATURE</p>
+              <h1 class="main-feature1">Twelve Ways to Jumpstart Your Business Today</h1>
+              <p class="main-feature1">This is supposed to be a longish excerpt about something or other. This is supposed to be a longish excerpt about something or other. This is supposed to be a longish excerpt about something or</p>
+              <a class="readmore-btn" href="#">READ MORE</a>
+            </div><!-- main-feature1-text-container -->
+          </div>
+
+        </div><!-- row -->
       </div>
+    </div>
+  </div><!-- main-feature-post1 -->
 
-
-      <div class="col-lg-4 col-xs-6" style="padding-left: 0; padding-right:0;">
-        <div class="main-feature1-text-container">
-          <p class="post-card-tags">FEATURE</p>
-          <h1 class="main-feature1">Twelve Ways to Jumpstart Your Business Today</h1>
-          <p class="main-feature1">This is supposed to be a longish excerpt about something or other. This is supposed to be a longish excerpt about something or other. This is supposed to be a longish excerpt about something or</p>
-          <a class="readmore-btn" href="#">READ MORE</a>
-        </div><!-- main-feature1-text-container -->
+  <div class="hero-sidebar-container">
+    <div class="sidebar-article-container">
+      <div class="sidebar-text">
+      </div><!-- sidebar-text -->
+      <div class="sidebar-img">
       </div>
-
-    </div><!-- row -->
-  </div>
-  </div>
+    </div><!-- sidebar-article-container -->
+    <div class="sidebar-article-container">
+    </div><!-- sidebar-article-container -->
+    
+  </div><!-- hero-sidebar-container -->
 </div>
 
 
@@ -40,13 +53,13 @@ into the {body} of the default.hbs template --}}
 
 <div class="site-wrapper">
   <div class="decorative-row-first row">
-      {{#get "posts" include="tags" limit="3" page="1" as |posts|}}
-        {{#foreach posts}}
-          <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
-            {{> "moxieleague-post-card"}}
-          </div>
-        {{/foreach}}
-      {{/get}}
+    {{#get "posts" include="tags" limit="3" page="1" as |posts|}}
+    {{#foreach posts}}
+      <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
+        {{> "moxieleague-post-card"}}
+      </div>
+    {{/foreach}}
+    {{/get}}
   </div>
 </div>
 
@@ -70,12 +83,12 @@ into the {body} of the default.hbs template --}}
 
 <div class="site-wrapper">
   <div class="decorative-row-first row">
-      {{#get "posts" limit="3" include="tags" page="2" as |posts|}}
-        {{#foreach posts}}
-          <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
-            {{> "moxieleague-post-card"}}
-          </div>
-        {{/foreach}}
-      {{/get}}
+    {{#get "posts" limit="3" include="tags" page="2" as |posts|}}
+    {{#foreach posts}}
+      <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
+        {{> "moxieleague-post-card"}}
+      </div>
+    {{/foreach}}
+    {{/get}}
   </div>
 </div><!-- container outer -->

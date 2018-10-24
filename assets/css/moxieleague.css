@@ -750,15 +750,39 @@ h3.footer-info {
 
 
 /* ---------------------------------------------------------- */
-/* Moxie League Main Post 1
+/* Moxie League Hero
 /* ---------------------------------------------------------- */
+.hero1-wrapper {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f2f6f9;
+	padding-bottom: 2.5%;
+}
+
+img.hero1 {
+	
+}
+
+.hero-sidebar-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex: 1;
+}
+
+.sidebar-article-container {
+	border: 1px solid #fff;
+}
+
 .main-feature-post1 {
 	padding-right: 5%;
 	padding-left: 5%;
-	background-color: #f2f6f9;
-	margin-bottom: 5%;
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
+    display: flex;
+	flex: 2;
+	flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1070px) {
