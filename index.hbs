@@ -10,6 +10,7 @@ into the {body} of the default.hbs template --}}
 
 
 <div class="main-feature-post1">
+  <div class="site-wrapper">
   <div class="main-feature1-content">
     <div class="row">
 
@@ -29,6 +30,7 @@ into the {body} of the default.hbs template --}}
 
     </div><!-- row -->
   </div>
+  </div>
 </div>
 
 
@@ -36,7 +38,7 @@ into the {body} of the default.hbs template --}}
 
 
 
-<div class="container-fluid">
+<div class="site-wrapper">
   <div class="decorative-row-first row">
       {{#get "posts" include="tags" limit="3" page="1" as |posts|}}
         {{#foreach posts}}
@@ -66,7 +68,7 @@ into the {body} of the default.hbs template --}}
 
 
 
-<div class="container-fluid">
+<div class="site-wrapper">
   <div class="decorative-row-first row">
       {{#get "posts" limit="3" include="tags" page="2" as |posts|}}
         {{#foreach posts}}
