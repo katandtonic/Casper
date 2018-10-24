@@ -55,12 +55,9 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-wrapper {
-    display: flex;
-    flex-direction: column;
 	padding-left: 5.75%;
 	padding-right: 5.75%;
 	max-width: 1900px;
-	margin: 0 auto !important;
 }
 
 .site-main {

@@ -757,6 +757,9 @@ h3.footer-info {
 	justify-content: space-between;
 	background-color: #f2f6f9;
 	padding-bottom: 2.5%;
+	padding-top: 2.5%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 img.hero1 {
@@ -778,11 +781,8 @@ img.hero1 {
 }
 
 .main-feature-post1 {
-	padding-right: 5%;
-	padding-left: 5%;
     display: flex;
 	flex: 2;
-	flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1070px) {
@@ -801,21 +801,9 @@ img.hero1 {
 }
 
 
-
 .main-feature1-content {
-	margin-top: 1.75%;
-	margin-bottom: 1.75%;
+	padding-right: 2.75%;
 }
-
-@media screen-only and (max-width: 575px) {
-    .main-feature1-content {
-	    margin-top: 2.5%;
-	    margin-bottom: 0%;
-		margin-left: 0%;
-		margin-right: 0%;
-    }
-}
-
 
 h1.main-feature1 {
 	font-family: "proxima-soft";
@@ -830,7 +818,6 @@ h1.main-feature1 {
 	padding-right: 10%;
 	padding-left: 10%;
 	background-color: white;
-	height: 100%;
 }
 
 p.main-feature1 {
