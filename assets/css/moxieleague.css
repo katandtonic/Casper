@@ -825,14 +825,14 @@ h1.sidebar {
 
 h1.main-feature1 {
 	font-family: "proxima-soft";
-	font-size: 4em;
-	margin-top: 7.5%;
+	font-size: 3.25em;
+	margin-top: 5%;
 	weight: 600;
 }
 
 .main-feature-text-container {
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 2.75%;
+	padding-bottom: 2.75%;
 	padding-right: 10%;
 	padding-left: 10%;
 	background-color: white;
@@ -842,7 +842,7 @@ p.main-feature1 {
 	font-family: "Avenir";
 	color: #333333;
 	font-size: 1.65rem;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .footer-subscribe-form-control {
@@ -854,4 +854,9 @@ p.main-feature1 {
 	background-clip: padding-box;
 	border: 1px solid #ced4da;
 	border-radius: .25rem;
+}
+
+.opt-in {
+	min-height: 300px;
+	background-color: red;
 }
