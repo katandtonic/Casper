@@ -766,12 +766,11 @@ h3.footer-info {
 }
 
 img.hero1 {
-	min-height: 34vw;
+	min-height: 29vw;
 }
 
 .hero-sidebar-container {
 	display: flex;
-	background-color: red;
 	flex-wrap: wrap;
 	flex-direction: column;
 	width: 40%;
@@ -783,12 +782,17 @@ img.hero1 {
 .sidebar-img {
 }
 
+h1.sidebar {
+	font-size: 1.75rem;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 @media (max-width: 800px) {
     .hero-sidebar-container {
 	    display: flex;
 	    justify-content: center;
 	    align-items: center;
-	    background-color: red;
 	    flex-wrap: wrap;
 	    flex-direction: column;
 	    width: 100%;
@@ -798,6 +802,9 @@ img.hero1 {
 .sidebar-article-container {
 	border: 1px solid #fff;
 	display: flex;
+	align-items: center;
+	background-color: white;
+	margin-bottom: 5%;
 }
 
 .main-feature {
