@@ -108,7 +108,11 @@ p.subscribe-form-p {
     }
 }
 
-
+@media (max-width: 800px) {
+	img.sidebar {
+		min-height: 45vw;
+	}
+}
 
 
 
@@ -765,6 +769,20 @@ h3.footer-info {
 	align-items: flex-start;
 }
 
+@media (max-width: 800px) {
+  .hero-wrapper {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f2f6f9;
+	padding-bottom: 3.5%;
+	padding-top: 3.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	flex-wrap: wrap;
+	align-items: flex-start;
+  }
+}
+
 img.hero1 {
 	min-height: 29vw;
 }
@@ -819,13 +837,19 @@ h1.sidebar {
     display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	padding-bottom: 7.5%;
+  }
 }
 
+@media (max-width: 800px) {
+	p.main-feature1 {
+		display: none;
+	}
 }
 
 h1.main-feature1 {
 	font-family: "proxima-soft";
-	font-size: 3.25em;
+	font-size: 2.75em;
 	margin-top: 5%;
 	weight: 600;
 }
