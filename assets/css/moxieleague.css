@@ -114,9 +114,6 @@ p.subscribe-form-p {
 	}
 }
 
-
-
-
 .moxieleague-site-footer-content {
 	padding-top: 3.5%;
 	padding-bottom: 2.15%;
@@ -147,9 +144,24 @@ img.social-media-icon {
 	border-radius: 0;
 }
 
+.second-feature {
+	display: flex;
+}
 
+@media (max-width: 800px) {
+	.second-feature {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
 
+.second-feature-img-container {
+	flex: 1;
+}
 
+.second-feature-text-container {
+	flex: 1;
+}
 
 
 
@@ -163,9 +175,20 @@ img.social-media-icon {
 }
 
 .decorative-row-first {
+	padding-top: 5%;
 	padding-bottom: 2.5%;
+	padding-left: 5.75%;
+	padding-right: 5.75%;
+	max-width: 1900px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #f5f5f5;
 }
 
+.row-article {
+	padding-left: .75%;
+	padding-right: .75%;
+}
 
 
 /* 3. Subscribe Form Footer (index)
@@ -429,39 +452,6 @@ h1.readmore {
 }
 
 
-h1.main-feature {
-	font-family: "proxima-soft";
-	font-size: 34px;
-	font-weight: 650;
-	margin-top: 7%;
-}
-
-p.main-feature {
-	font-family: "Avenir";
-	font-size: 16px;
-	font-weight: 500;
-	color: #9b9b9b;
-	margin-top: 5%;
-	margin-bottom: 15%;
-}
-
-.main-feature-words-box-inner {
-	margin-left: 1.75%;
-	margin-right: 1.75%;
-	margin-top: 1.75%;
-	margin-bottom: 1.75%;
-	border-style: solid;
-	border-color: #FF4C3E;
-	border-width: .15vw;
-	padding-left: 12.75%;
-	padding-right: 12.75%;
-}
-
-.main-feature-icon {
-	max-width: auto;
-	height: 2.75vw;
-}
-
 /* Responsive For Mobile*/
 
 @media screen and (max-width:600px){
@@ -571,7 +561,7 @@ p.main-feature {
 /* Post Card =
 /* ---------------------------------------------------------- */
 .post-card-content {
-	background-color: #f5f5f5;
+	background-color: white;
 	height: 150px;
 }
 
@@ -773,11 +763,6 @@ h3.footer-info {
   .hero-wrapper {
 	display: flex;
 	justify-content: space-between;
-	background-color: #f2f6f9;
-	padding-bottom: 3.5%;
-	padding-top: 3.5%;
-	padding-left: 5%;
-	padding-right: 5%;
 	flex-wrap: wrap;
 	align-items: flex-start;
   }
@@ -852,6 +837,16 @@ h1.main-feature1 {
 	font-size: 2.75em;
 	margin-top: 5%;
 	weight: 600;
+}
+
+@media screen and (max-width:800px){
+  h1.main-feature1 {
+	font-family: "proxima-soft";
+	font-size: 1.5em;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	weight: 600;
+  }
 }
 
 .main-feature-text-container {

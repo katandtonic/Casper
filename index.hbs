@@ -52,16 +52,17 @@ into the {body} of the default.hbs template --}}
 
 
 
-<div class="site-wrapper">
-  <div class="decorative-row-first row">
-    {{#get "posts" include="tags" limit="3" page="1" as |posts|}}
-    {{#foreach posts}}
-      <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
-        {{> "moxieleague-post-card"}}
-      </div>
-    {{/foreach}}
-    {{/get}}
-  </div>
+<div class="decorative-row-first">
+  {{#get "posts" include="tags" limit="3" page="1" as |posts|}}
+  {{#foreach posts}}
+    <div class="row-article col-sm-4">
+      {{> "moxieleague-post-card"}}
+    </div>
+  {{/foreach}}
+  {{/get}}
+</div>
+
+<div class="second-feature">
 </div>
 
 <div class="main-feature-post2">
