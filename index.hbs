@@ -7,54 +7,57 @@ into the {body} of the default.hbs template --}}
 </header>
 
 
-
 <div class="hero-wrapper">
   <div class="main-feature">
-    <div class="main-feature-img">
-      <img src="https://moxieleague.nyc3.digitaloceanspaces.com/itchymammals/blog-front-page/boris-baldinger-1114831-unsplash.png" class="hero1" />
-    </div>
-    <div class="main-feature-text-container">
-      <p class="post-card-tags">FEATURE</p>
-      <h1 class="main-feature1">Twelve Ways to Jumpstart Your Business Today</h1>
-      <p class="main-feature1">This is supposed to be a longish excerpt about something or other. This is supposed to be a longish excerpt about something or other. This is supposed to be a longish excerpt about something or</p>
-      <a class="readmore-btn" href="#">READ MORE</a>
-    </div><!-- main-feature-text-container -->
+    {{#get "posts" filter="featured:true" limit="1"}}
+    {{#foreach posts}}
+      <a href="{{url}}">
+      <div class="main-feature-img">
+        <img src={{feature_image}} class="hero1" />
+      </div>
+      </a>
+      <div class="main-feature-text-container">
+        <p class="post-card-tags">FEATURE</p>
+        <h1 class="main-feature1">{{title}}</h1>
+        <p class="main-feature1">{{excerpt}}</p>
+        <a class="readmore-btn" href="#">READ MORE</a>
+      </div><!-- main-feature-text-container -->
+    {{/foreach}}
+    {{/get}}
   </div>
 
   <div class="hero-sidebar-container">
+    {{#get "posts" include="tags" limit="2" filter="featured:false" page="1" as |posts|}}
+    {{#foreach posts}}
+   
     <div class="sidebar-article-container">
       <div class="sidebar-text">
-        <h1 class="sidebar">Liverwort may rival cannabis as pain-killer</h1>
+        <h1 class="sidebar">{{title}}</h1>
       </div><!-- sidebar-text -->
-      <div class="sidebar-img">
-        <img src="https://moxieleague.nyc3.digitaloceanspaces.com/itchymammals/blog-front-page/boris-baldinger-1114831-unsplash.png" class="sidebar" />
-      </div>
-    </div><!-- sidebar-article-container -->
+
+      <a class="post-card-image-link" href="{{url}}">
+        <div class="sidebar-img">
+          <img src="https://moxieleague.nyc3.digitaloceanspaces.com/itchymammals/blog-front-page/boris-baldinger-1114831-unsplash.png" class="sidebar" />
+        </div>
+        </div><!-- sidebar-article-container -->
+      </a>
+    {{/foreach}}
+    {{/get}}
 
 
-    <div class="sidebar-article-container">
-      <div class="sidebar-text">
-        <h1 class="sidebar">Winner of the Special Breakthrough Prize</h1>
-      </div>
-      <div class="sidebar-img">
-        <img src="https://moxieleague.nyc3.digitaloceanspaces.com/itchymammals/blog-front-page/181025-elephant-thumb.jpg" class="sidebar" />
-      </div>
-    </div><!-- sidebar-article-container -->
 
     <div class="opt-in">
-      
     </div>
   </div><!-- hero-sidebar-container -->
 </div>
-
   
 
 
 
 
-<div class="decorative-row-first">
-  {{#get "posts" include="tags" limit="3" page="1" as |posts|}}
-  {{#foreach posts}}
+<div class="decorative-row">
+  {{#get "posts" include="tags" limit="5" filter="featured:false" as |posts|}}
+  {{#foreach posts from="3" to="5"}}
     <div class="row-article col-sm-4">
       {{> "moxieleague-post-card"}}
     </div>
@@ -62,35 +65,28 @@ into the {body} of the default.hbs template --}}
   {{/get}}
 </div>
 
+<div class="decorative-row">
+  {{#get "posts" include="tags" limit="8" filter="featured:false" as |posts|}}
+  {{#foreach posts from="6" to="8"}}
+    <div class="row-article col-sm-4">
+      {{> "moxieleague-post-card"}}
+    </div>
+  {{/foreach}}
+  {{/get}}
+</div>
+
+
 <div class="second-feature">
 </div>
 
-<div class="main-feature-post2">
-  <div class="main-feature-border">
-    <div class="main-content-border-outer">
-      <div class="main-feature-content-container">
-        <img class="main-feature-icon" style="margin-left: auto; margin-right: auto; display: block;" src="https://moxieleague.nyc3.digitaloceanspaces.com/site-icons/school.svg" />
-        <p class="featurette-tag text-center highlighted-underscore">INTERVIEW</p>
-        <h1 class="main-feature text-center">Why you are doing SEO all wrong</h1>
-        <p class="main-feature">They lived near a gorgeous beach in sunny San Diego. They frequently dined at sushi restaurants. They drove a BMW.</p>
-        <div class="mycontainer" style="margin-bottom: 2.5%; text-align:center;">
-          <a class="readmore-btn" href="#">READ MORE</a>
-        </div>
-      </div><!-- main-feature-content-container -->
-    </div><!-- main-content-border-outer -->
-  </div><!-- main-feature-content-container -->
-</div><!-- main-feature-post2 -->
+<div class="decorative-row">
+  {{#get "posts" include="tags" limit="2" filter="featured:false" page="4" as |posts|}}
+  {{#foreach posts}}
+    <div class="row-article col-sm-6">
+      {{> "moxieleague-post-card"}}
+    </div>
+  {{/foreach}}
+  {{/get}}
+</div>
 
 
-
-<div class="site-wrapper">
-  <div class="decorative-row-first row">
-    {{#get "posts" limit="3" include="tags" page="2" as |posts|}}
-    {{#foreach posts}}
-      <div class="col-sm-4" style="padding-left: .75%; padding-right: .75%">
-        {{> "moxieleague-post-card"}}
-      </div>
-    {{/foreach}}
-    {{/get}}
-  </div>
-</div><!-- container outer -->
