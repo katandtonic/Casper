@@ -312,7 +312,7 @@ h3.footer-subscribe-form-title {
 
 
 .featurette-title {
-	font-family: "proxima-soft";
+	font-family: "Avenir";
 	font-size: 36px;
 	font-weight: 500;
 }
@@ -591,9 +591,9 @@ h1.readmore {
 
 h2.ml-post-card-title {
     margin-top: 7.5%;
-	font-family: "proxima-soft";
+	font-family: "Avenir";
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 500;
 	color: #1a1c4c;
 }
 
@@ -782,9 +782,8 @@ img.hero1 {
 }
 
 .sidebar-text {
-}
-
-.sidebar-img {
+	flex: 0 0 50%;
+	max-width: 50%;
 }
 
 h1.sidebar {
@@ -792,6 +791,18 @@ h1.sidebar {
 	padding-left: 10%;
 	padding-right: 10%;
 }
+
+.sidebar-post-card-image-link {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+	padding-left: 0;
+	padding-right: 0;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
 
 @media (max-width: 800px) {
     .hero-sidebar-container {
@@ -835,7 +846,7 @@ h1.sidebar {
 }
 
 h1.main-feature1 {
-	font-family: "proxima-soft";
+	font-family: "futura";
 	font-size: 2.75em;
 	margin-top: 1.5%;
 	weight: 600;
@@ -843,7 +854,7 @@ h1.main-feature1 {
 
 @media screen and (max-width:800px){
   h1.main-feature1 {
-	font-family: "proxima-soft";
+	font-family: "Avenir";
 	font-size: 1.5em;
 	margin-top: 5%;
 	margin-bottom: 5%;
