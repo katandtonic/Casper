@@ -80,9 +80,9 @@ into the {body} of the default.hbs template --}}
 </div>
 
 <div class="decorative-row">
-  {{#get "posts" include="tags" limit="2" filter="featured:false" page="4" as |posts|}}
-  {{#foreach posts}}
-    <div class="row-article col-sm-6">
+  {{#get "posts" include="tags" limit="5" filter="featured:true" as |posts|}}
+  {{#foreach posts from="2" to="4"}}
+    <div class="row-article col-sm-4">
       {{> "moxieleague-post-card"}}
     </div>
   {{/foreach}}
