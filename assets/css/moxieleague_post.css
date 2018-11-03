@@ -132,10 +132,23 @@ div#id_div > p:first-of-type {
 }
 
 .points-frame {
-	max-width: 50%;
+	max-width: 55%;
 	margin: auto;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: .125rem;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
-.point-frame p {
+.points-frame p {
 	font-family: "Avenir";
+}
+
+.sources {
+	background-color: #f2f6f9;
 }
