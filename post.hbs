@@ -25,9 +25,9 @@ into the {body} of the default.hbs template --}}
                 <h1 class="ml-post-full-title">{{title}}</h1>
             </header>
 
-            <section class="ml-post-content">
+            <div class="ml-post-content">
                 {{content}}
-            </section>
+            </div>
         </article>
     </div>
 </main>
@@ -49,7 +49,6 @@ into the {body} of the default.hbs template --}}
 
 {{!-- Links to related posts --}}
 <div class="more-posts-container">
-    <h1 class="more-posts">More Posts</h1>
     <div class="decorative-row-first row">
       {{#get "posts" limit="3" as |recent_posts|}}
         {{#foreach recent_posts}}

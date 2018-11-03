@@ -10,9 +10,10 @@
   box-sizing: border-box;
 }
 
-.ml-inner {
-
+.kat-test {
+	background-color: red;
 }
+
 
 /* 7.1. Subscribe Form
 /* ---------------------------------------------------------- */
@@ -216,8 +217,8 @@ img.social-media-icon {
 }
 
 .subscribe-content-container-inner {
-	padding-top: 6.75%;
-	padding-bottom: 6.75%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	padding-left: 15.5%;
 	padding-right: 15.5%;
 	border-color: #FF4C3E;
@@ -231,9 +232,9 @@ img.social-media-icon {
 }
 
 h3.footer-subscribe-form-title {
-	padding-bottom: 2%;
-	font-family: "futura-pt";
-	font-size: 5.0rem;
+	padding-bottom: 1%;
+	font-family: "Avenir";
+	font-size: 3.25rem;
 	font-weight: 500;
 }
 
@@ -786,10 +787,19 @@ img.hero1 {
 	max-width: 50%;
 }
 
+h2.article {
+	font-family: "Avenir";
+	font-size: 22px;
+	font-weight: 600;
+	padding-top: 2.75rem;
+	padding-bottom: .75rem;
+}
+
 h1.sidebar {
 	font-size: 1.75rem;
 	padding-left: 10%;
 	padding-right: 10%;
+	font-family: "Avenir";
 }
 
 .sidebar-post-card-image-link {
@@ -846,7 +856,7 @@ h1.sidebar {
 }
 
 h1.main-feature1 {
-	font-family: "futura";
+	font-family: "Avenir";
 	font-size: 2.75em;
 	margin-top: 1.5%;
 	weight: 600;
