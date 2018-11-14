@@ -152,3 +152,21 @@ div#id_div > p:first-of-type {
 .sources {
 	background-color: #f2f6f9;
 }
+
+ul.table-of-contents {
+    background-color:  #f2f6f9;
+    border: 1px solid black;
+    border-radius: 3px 3px 3px 3px;
+    list-style: none;
+    padding: 10px 10px 10px 25px;
+}
+
+ul.inner {
+    background-color:  #f2f6f9;
+    list-style: none;
+    padding-left: 15px;
+}
+
+li.inner {
+	margin: 0;
+}
