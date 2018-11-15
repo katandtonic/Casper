@@ -170,3 +170,39 @@ ul.inner {
 li.inner {
 	margin: 0;
 }
+
+.ingredient-box {
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 7.5%;
+	margin-bottom: 7.5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: lightyellow;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+h2.article {
+    margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	font-size: 22px;
+	text-indent: 25px;
+	border-left-color: red;
+	border-left-style: solid;
+	border-left-width: 5px;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+h3.article {
+    margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	font-size: 22px;
+	text-indent: 25px;
+	border-left-color: red;
+	border-left-style: solid;
+	border-left-width: 5px;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
