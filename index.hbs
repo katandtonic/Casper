@@ -29,15 +29,14 @@ into the {body} of the default.hbs template --}}
   <div class="hero-sidebar-container">
     {{#get "posts" include="tags" limit="2" filter="featured:false" page="1" as |posts|}}
     {{#foreach posts}}
-   
     <div class="sidebar-article-container">
       <div class="sidebar-text">
-        <h1 class="sidebar">{{title}}</h1>
+        <a href="{{url}}"><h1 class="sidebar">{{title}}</h1></a>
       </div><!-- sidebar-text -->
 
       <a class="sdebar-post-card-image-link" href="{{url}}">
         <div class="sidebar-img">
-          <img src="https://moxieleague.nyc3.digitaloceanspaces.com/itchymammals/blog-front-page/boris-baldinger-1114831-unsplash.png" class="sidebar" />
+          <img src="{{img_url feature_image}}" class="sidebar" />
         </div>
         </div><!-- sidebar-article-container -->
       </a>
