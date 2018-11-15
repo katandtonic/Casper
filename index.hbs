@@ -16,12 +16,14 @@ into the {body} of the default.hbs template --}}
         <img src={{feature_image}} class="hero1" />
       </div>
       </a>
+      <a href="{{url}}">
       <div class="main-feature-text-container">
         <p class="post-card-tags">FEATURE</p>
         <h1 class="main-feature1">{{title}}</h1>
         <p class="main-feature1">{{excerpt}}</p>
         <a class="readmore-btn" href="#">READ MORE</a>
       </div><!-- main-feature-text-container -->
+      </a>
     {{/foreach}}
     {{/get}}
   </div>

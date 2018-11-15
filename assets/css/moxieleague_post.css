@@ -155,7 +155,6 @@ div#id_div > p:first-of-type {
 
 ul.table-of-contents {
     background-color:  #f2f6f9;
-    border: 1px solid black;
     border-radius: 3px 3px 3px 3px;
     list-style: none;
     padding: 10px 10px 10px 25px;
@@ -169,6 +168,7 @@ ul.inner {
 
 li.inner {
 	margin: 0;
+	font-size: 15px;
 }
 
 .ingredient-box {
@@ -191,18 +191,14 @@ h2.article {
 	border-left-color: red;
 	border-left-style: solid;
 	border-left-width: 5px;
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
+	padding-top: 1.75%;
+	padding-bottom: 1.75%;
 }
 
 h3.article {
     margin-top: 2.5%;
 	margin-bottom: 2.5%;
 	font-size: 22px;
-	text-indent: 25px;
-	border-left-color: red;
-	border-left-style: solid;
-	border-left-width: 5px;
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
+	padding-top: 1.75%;
+	padding-bottom: 1.75%;
 }
