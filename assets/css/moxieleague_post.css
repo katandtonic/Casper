@@ -184,16 +184,13 @@ li.inner {
 }
 
 h2.article {
-	font-size: 22px;
+	font-size: 26px;
 	padding-top: 2.5%;
 }
 
 h3.article {
-    margin-top: 2.5%;
-	margin-bottom: 2.5%;
 	font-size: 22px;
-	padding-top: 1.75%;
-	padding-bottom: 1.75%;
+	padding-top: 2.5%;
 }
 
 h2.article::after {
@@ -283,4 +280,12 @@ h4.references-title {
 	z-index: 3;
 	border: none;
 	width: 100%;
+}
+
+span.references {
+	font-size: 16px;
+}
+
+li.section-reference {
+	font-size: 14px;
 }
