@@ -222,3 +222,41 @@ img.main {
 	margin-right: auto;
 	margin-bottom: 5%;
 }
+
+.article-footer{
+	padding: 10px 20px 10px;
+	border-top: 1px solid #eee;
+	color: #888;
+	font-size: 12px;
+}
+
+h4.references-title {
+	font-size: 16px;
+	color: #777;
+	margin: 0;
+	padding: 20px;
+	background-color: #f7f7f7;
+}
+
+#section-references {
+	background: #fbfbfb;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-color: #f1f1f1;
+	display: block;
+	overflow: hidden;
+	height: 100%;
+}
+
+#section-references-outer .btn.collapsed {
+	margin-top: -50px;
+	padding-top: 28px;
+	padding-bottom: 8px;
+	display: block;
+}
+
+#section-citations .btn-gradient.collapsed span:before, #section-citations .btn-gradient.collapsed span:after {
+
+}
