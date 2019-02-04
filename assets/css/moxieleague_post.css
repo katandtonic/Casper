@@ -41,16 +41,42 @@
 }
 
 .ml-post-content p {
-	font-size: 1.95rem;
+	font-size: 1.75rem;
 	font-family: 'faktpro', san-serif;
+	line-height: 3.5rem;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
 }
 
+.ml-post-content h2 {
+	font-size: 3rem;
+	font-family: 'Avenir', san-serif;
+	font-weight: 600;
+}
+
+.ml-post-content h3 {
+	font-size: 2.75rem;
+	font-family: 'Avenir', san-serif;
+	font-weight: 600;
+}
+
+.ml-post-content h4 {
+	font-size: 2.5rem;
+	font-family: 'Avenir', san-serif;
+	font-weight: 600;
+}
+
+.ml-post-content h5 {
+	font-size: 2rem;
+	font-family: 'Avenir', san-serif;
+	font-weight: 600;
+}
 
 h1.ml-post-full-title {
 	font-family: "Avenir";
 	color: #333333;
-	font-size: 3.75rem;
-	font-weight: 600;
+	font-size: 3rem;
+	font-weight: 700;
 	text-align: center;
 	padding-top: 3%;
 	padding-bottom: 3%;
