@@ -855,3 +855,9 @@ p.main-feature1 {
 	background-color: red;
 	width: 100%;
 }
+
+@font-face {
+	font-family: "faktpro";
+	src: url("../font/Fakt WEB/EOT/Fonts/FaktPro-Normal.eot");
+	src: url("../font/Fakt WEB/WOFF/Fonts/FaktPro-Normal.woff") format("woff");
+}

@@ -42,7 +42,7 @@
 
 .ml-post-content p {
 	font-size: 1.95rem;
-	font-family: 'Crimson Text', san-serif;
+	font-family: 'faktpro', san-serif;
 }
 
 
@@ -288,4 +288,10 @@ span.references {
 
 li.section-reference {
 	font-size: 14px;
+}
+
+@font-face {
+	font-family: "faktpro";
+	src: url("../font/Fakt WEB/EOT/Fonts/FaktPro-Normal.eot");
+	src: url("../font/Fakt WEB/WOFF/Fonts/FaktPro-Normal.woff") format("woff");
 }
