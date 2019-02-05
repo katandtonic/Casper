@@ -75,11 +75,11 @@
 h1.ml-post-full-title {
 	font-family: "Avenir";
 	color: #333333;
-	font-size: 3rem;
+	font-size: 4rem;
 	font-weight: 700;
 	text-align: center;
 	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-bottom: 0%;
 }
 
 .more-posts-container {
@@ -316,8 +316,47 @@ li.section-reference {
 	font-size: 14px;
 }
 
+.procon-box {
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.procon-box h4 {
+	font-size: 1.75rem;
+}
+
+.procon-box h5 {
+	font-size: 1.5rem;
+}
+
+.procon-box p {
+	font-size: 1.55rem;
+}
+
+.procon-box ul p {
+	font-size: 1.55rem;
+}
+
+.light-blue {
+	background-color: #F3FAFC;
+}
+
+.light-orange {
+	background-color: #FFFDFB;
+}
+
 @font-face {
 	font-family: "faktpro";
 	src: url("../font/Fakt WEB/EOT/Fonts/FaktPro-Normal.eot");
 	src: url("../font/Fakt WEB/WOFF/Fonts/FaktPro-Normal.woff") format("woff");
+}
+
+.ml-post-content ul p {
+	line-height: 1rem;
+}
+
+.red-bottom {
+	border-bottom: 2px solid red;
 }
