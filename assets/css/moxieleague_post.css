@@ -337,8 +337,9 @@ li.section-reference {
 	font-size: 1.5rem;
 }
 
-.procon-box p {
+.ml-post-content .procon-box ul p {
 	font-size: 1.55rem;
+	line-height: 2rem;
 }
 
 .procon-box ul p {
@@ -362,7 +363,7 @@ li.section-reference {
 
 
 .ml-post-content ul p {
-	line-height: 1rem;
+	line-height: 2rem;
 }
 
 .red-bottom {
