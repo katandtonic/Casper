@@ -8,6 +8,7 @@ into the {body} of the default.hbs template --}}
 
 
 <div class="hero-wrapper">
+  <div class="hero-inner">
   <div class="main-feature">
     {{#get "posts" filter="featured:true" limit="1"}}
     {{#foreach posts}}
@@ -27,6 +28,7 @@ into the {body} of the default.hbs template --}}
     {{/foreach}}
     {{/get}}
   </div>
+  
 
   <div class="hero-sidebar-container">
     {{#get "posts" include="tags" limit="2" filter="featured:false" page="1" as |posts|}}
@@ -49,6 +51,7 @@ into the {body} of the default.hbs template --}}
 
     <div class="opt-in">
     </div>
+    </div><!-- inner -->
   </div><!-- hero-sidebar-container -->
 </div>
   
@@ -76,9 +79,6 @@ into the {body} of the default.hbs template --}}
   {{/get}}
 </div>
 
-
-<div class="second-feature">
-</div>
 
 <div class="decorative-row">
   {{#get "posts" include="tags" limit="5" filter="featured:true" as |posts|}}

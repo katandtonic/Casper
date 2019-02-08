@@ -147,24 +147,6 @@ img.social-media-icon {
 	border-radius: 0;
 }
 
-.second-feature {
-	display: flex;
-}
-
-@media (max-width: 800px) {
-	.second-feature {
-		display: flex;
-		flex-wrap: wrap;
-	}
-}
-
-.second-feature-img-container {
-	flex: 1;
-}
-
-.second-feature-text-container {
-	flex: 1;
-}
 
 
 /* 3. Post Feed
@@ -178,7 +160,6 @@ img.social-media-icon {
 	padding-bottom: 2.5%;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
-	max-width: 1200px;
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
@@ -282,76 +263,11 @@ h3.footer-subscribe-form-title {
 	white-space: nowrap;
 }
 
-/* 3. Two Piece Featurette
-/* ---------------------------------------------------------- */
-.second-featurette {
-	padding-left: 15.75%;
-	padding-right: 15.75%;
-	padding-top: 3.5%;
-	padding-bottom: 3.5%;
-}
-
-.second-featurette-img {
-	width: 50vw;
-	height: auto;
-}
-
-.featurette-title-container {
-	background-color: white;
-}
-
-.featurette-content-row {
-	border-color: #FF4C3E;
-	border-style: solid;
-	border-width: .15vw;
-	padding: .5vw;
-}
-
-
-.featurette-title {
-	font-family: "Avenir";
-	font-size: 36px;
-	font-weight: 500;
-}
-
-.no-padding-lr-container {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 0;
-	padding-right: 0;
-}
-
-p.featurette-tag {
-	font-family: "futura-pt";
-	font-size: 135%;
-	font-weight: 600;
-	margin-bottom: 0;
-}
-
-
-.featurette-tag-icon {
-	height: 1.5vw;
-	width: auto;
-	margin-top: .05vw;
-}
-
 .highlighted-underscore {
 	background-image: linear-gradient(180deg, #FFFF11, #FFFF11);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: 30% 1.15vw;
-}
-
-.featurette-excerpt {
-	padding-left: 7.5%;
-	padding-right: 7.5%;
-}
-
-p.featurette-excerpt {
-	color: #333333;
-	font-family: "Avenir";
-	font-size: 16px;
 }
 
 .readmore-btn {
@@ -386,7 +302,6 @@ p.featurette-excerpt {
 	border-width: 3px;
 }
 
-
 h1.readmore {
 	color: white;
 	font-family: "Avenir";
@@ -395,55 +310,6 @@ h1.readmore {
 	padding: 2.5%;
 }
 
-
-/* Main Feature Post
-/* ---------------------------------------------------------- */
-/* TODO make this height responsive
-/* ---------------------------------------------------------- */
-
-.main-feature-border {
-	border-color: white;
-	border-style: solid;
-	border-width: .15vw;
-	margin: 1%;
-	width: 100%;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-.main-content-border-outer {
-    background-color: white;
-	margin-left: 5%;
-	width: 40%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-/* ---------------------------------------------------------- */
-/* TODO make responsive
-/* ---------------------------------------------------------- */
-.main-feature-content-container {
-	background-color: white;
-	padding-left: 5.75%;
-	padding-right: 5.75%;
-	border-color: #FF4C3E;
-	border-style: solid;
-	border-width: .15vw;
-	margin: 1%;
-}
-
-
-/* Responsive For Mobile*/
-.main-content-border-outer {
-    margin-left: 0;
-    width: 100%;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
 
 
 /* Site Header
@@ -711,6 +577,14 @@ h3.footer-info {
 	display: flex;
 	justify-content: space-between;
 	background-color: #f2f6f9;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.hero-inner {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f2f6f9;
 	padding-bottom: 3.5%;
 	padding-top: 3.5%;
 	padding-left: 7.5%;
@@ -718,7 +592,9 @@ h3.footer-info {
 	max-width: 1800px;
 	flex-wrap: wrap;
 	align-items: flex-start;
+	margin: auto;
 }
+
 
 @media (max-width: 800px) {
   .hero-wrapper {
@@ -730,7 +606,8 @@ h3.footer-info {
 }
 
 img.hero1 {
-	min-width: 49vw;
+	max-width: 100%;
+	object-fit: contain;
 }
 
 .hero-sidebar-container {

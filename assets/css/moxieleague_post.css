@@ -43,7 +43,7 @@
 .ml-post-content p {
 	font-size: 1.75rem;
 	font-family: 'faktpro', san-serif;
-	line-height: 3.5rem;
+	line-height: 2.75rem;
 	margin-block-start: 1em;
 	margin-block-end: 1em;
 }
@@ -79,10 +79,10 @@
 }
 
 h1.ml-post-full-title {
-	font-family: "Avenir";
+	font-family: garamond;
 	color: #333333;
 	font-size: 4rem;
-	font-weight: 700;
+	font-weight: 500;
 	text-align: center;
 	padding-top: 3%;
 	padding-bottom: 0%;
@@ -362,10 +362,14 @@ li.section-reference {
 
 
 
-.ml-post-content ul p {
-	line-height: 2rem;
-}
 
 .red-bottom {
 	border-bottom: 2px solid red;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
