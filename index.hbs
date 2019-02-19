@@ -8,7 +8,7 @@ into the {body} of the default.hbs template --}}
 
 
 <div class="hero-wrapper">
-  <div class="hero-inner">
+  <div class="blog-inner">
   <div class="main-feature">
     {{#get "posts" filter="featured:true" limit="1"}}
     {{#foreach posts}}
@@ -59,7 +59,7 @@ into the {body} of the default.hbs template --}}
 
 
 
-<div class="decorative-row">
+<div class="blog-inner">
   {{#get "posts" include="tags" limit="5" filter="featured:false" as |posts|}}
   {{#foreach posts from="3" to="5"}}
     <div class="row-article col-sm-4">
@@ -69,7 +69,7 @@ into the {body} of the default.hbs template --}}
   {{/get}}
 </div>
 
-<div class="decorative-row">
+<div class="blog-inner">
   {{#get "posts" include="tags" limit="8" filter="featured:false" as |posts|}}
   {{#foreach posts from="6" to="8"}}
     <div class="row-article col-sm-4">
@@ -80,7 +80,7 @@ into the {body} of the default.hbs template --}}
 </div>
 
 
-<div class="decorative-row">
+<div class="blog-inner">
   {{#get "posts" include="tags" limit="5" filter="featured:true" as |posts|}}
   {{#foreach posts from="2" to="4"}}
     <div class="row-article col-sm-4">
